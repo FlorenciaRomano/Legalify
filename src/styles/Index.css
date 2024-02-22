@@ -1,0 +1,18 @@
+.main{
+    background-color: red;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80.2vh;
+}
+
+.footer{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 10vh;
+}
+
