@@ -1,18 +1,259 @@
 .main{
-    background-color: red;
+    background-color: white;
     color: black;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80.2vh;
+    flex-wrap: wrap;
+   
+    
 }
 
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: rgb(0, 33, 65);
+}
+.nav__brand {
+  text-transform: uppercase;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    height: 93vh;
+    width: 50vw;
+    background: rgb(0, 33, 65);
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+}
+/* Active Class */
+.nav__active {
+  transform: translateX(0%);
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+
+
+
+/* BOTON REGISTRARSE*/
+.registrarse{
+background-color: rgb(3, 95, 170);
+color: white;
+height: 35px;
+width: 90px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 3px;
+margin-top: 4px;
+}
+
+/*SECCION UNO*/
+.sectionPrin{
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:  45vh; ;
+  margin-top: 5%;
+}
+
+.section1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 30vh; 
+  width: 400px;
+  margin-left: 100px;
+}
+.imagenUno{
+  width: 400px;
+}
+
+.financiar{
+    background-color: rgb(3, 95, 170);
+    color: white;
+    height: 35px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin-top: 4px;
+    }
+
+    .botonesS1{
+      display: flex;
+      justify-content: space-around;
+    }
+    
+/*SECCION DOS*/
+.sectionDos{
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:  55vh; ;
+  margin-top: 5%;
+  background-color:#89aeff81   ;
+}
+
+.section2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 30vh; 
+  width: 400px;
+  
+}
+
+.imagenDos{
+  width:50%;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* SECCION TRES*/
+
+
+.Seccion3{
+  height: 40vh;
+  width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+
+#customized-dialog-title{
+  background-color: rgba(0, 33, 65, 0.836);
+  color: white;
+}
+
+.botonesS3{
+  width: 50%;
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-around;
+
+ 
+
+}
+.MuiPaper-root{
+  height: 90vh;
+  width: 80%;
+}
+
+.MuiTypography-rootPrincipal{
+  background-color:#89aeff81;
+  height: 4vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  
+  
+}
+
+ .checkIcon{
+   color: white;
+   background-color: green;
+   border-radius: 7px;
+   font-size: 10px;
+ }
+
+ .clearIcon{
+  color: white;
+  background-color: red;
+  border-radius: 7px;
+ }
+#MuiButtonBase-root{
+  color: white;
+  background-color: red;
+  width: 6vh;
+  height: 3.5vh;
+  margin-top: 8px;
+}
+ .MuiButton-label{
+ 
+  height: 2rem;
+  width: 4vh;
+  border-radius: 2px;
+ }
+
+/* FOOTTER*/
+
 .footer{
-    background-color: blue;
+    background-color:rgb(0, 33, 65);
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items:center;
-    height: 10vh;
+    height: 11.6vh;
+}
+.iconos{
+    width: 130px;
+    display: flex;
+     justify-content: space-around;
 }
 
