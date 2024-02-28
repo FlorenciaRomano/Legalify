@@ -25,7 +25,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: rgb(204, 204, 204);
+  color: white;
 }
 
 .nav {
@@ -33,7 +33,7 @@ a {
   align-items: center;
   justify-content: space-around;
   height: 8vh;
-  background: rgb(0, 33, 65);
+  background: linear-gradient(to right, rgba(0, 0, 255, 0.548), pink);
 }
 .nav__brand {
   text-transform: uppercase;
@@ -54,6 +54,14 @@ a {
   margin: 0.4rem;
   background: rgb(204, 204, 204);
   transition: 0.3s ease-in;
+}
+
+.grupo3Nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 21%;
+ 
 }
 
 @media screen and (max-width: 768px) {
@@ -143,6 +151,7 @@ margin-top: 4px;
     .botonesS1{
       display: flex;
       justify-content: space-around;
+      width: 60%;
     }
     
 /*SECCION DOS*/
@@ -172,8 +181,23 @@ margin-top: 4px;
   justify-content: center;
 }
 
-
 /* SECCION TRES*/
+
+.sectionTres{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pasoAPaso{
+display: flex;
+width: 100%;
+justify-content: center;
+}
+
+/* SECCION CUATRO*/
 
 
 .Seccion3{
@@ -201,7 +225,7 @@ margin-top: 4px;
 
 }
 .MuiPaper-root{
-  height: 90vh;
+  
   width: 80%;
 }
 

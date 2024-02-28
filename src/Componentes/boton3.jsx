@@ -9,7 +9,7 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
-import PersonIcon from '@mui/icons-material/Person';
+import BalanceIcon from '@mui/icons-material/Balance';
 import CheckIcon from '@mui/icons-material/Check';
 
 
@@ -71,7 +71,7 @@ const styles = (theme) => ({
       <div className='boton3'>
         
        
-        <Button variant="outlined" color="primary" startIcon={<PersonIcon/>} onClick={handleClickOpen}>
+        <Button variant="outlined" color="primary" startIcon={<BalanceIcon/>} onClick={handleClickOpen}>
         ABOGADO
         </Button>
         <Dialog onClose={Abogado } aria-labelledby="customized-dialog-title" open={open}>

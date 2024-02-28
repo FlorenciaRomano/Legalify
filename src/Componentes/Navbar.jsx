@@ -44,8 +44,12 @@ function Navbar() {
             Contacto
           </a>
         </li>
-        <a className="registrarse" href="#" src={Button}>Registrarse</a>
       </ul>
+      <div className="grupo3Nav">
+      <a className="registrarse" href="#" src={Button}>Registrarse</a>
+      <a className="registrarse" href="#" src={Button}>Inicia Sesion</a>   
+      </div>    
+
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
         <div className="line2"></div>

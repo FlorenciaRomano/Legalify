@@ -1,0 +1,34 @@
+{
+    "Pasos":[
+        {
+            "id":1,
+            "nombre": "Paso 1",
+            "img":"",
+            "descripcion":"Regístrate."
+        },
+        {
+            "id":2,
+            "nombre": "Paso 2",
+            "img":"",
+            "descripcion":"Contanos tu problema completando el formulario"
+        },
+        {
+            "id":3,
+            "nombre": "Paso 3",
+            "img":"",
+            "descripcion":"Elige el modo de contactar a tu profesional: a) Correo electrónico b) Videollamada c) Llamada de emergencia. * Ver tarifas en precios."
+        },
+        {
+            "id":4,
+            "nombre": "Paso 4",
+            "img":"",
+            "descripcion":"Comunícate con tu abogado y cuéntale más detalles para que te asesore."
+        },
+        {
+            "id":5,
+            "nombre": "Paso 5",
+            "img":"",
+            "descripcion":"Califica a tu abogado. ¡Tu opinión es muy valiosa!"
+        }
+    ]
+}
