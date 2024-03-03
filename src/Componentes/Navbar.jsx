@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button } from "bootstrap";
 import Logo from '../assets/logo_legalify_azul_transparente.png'
 
+
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
@@ -16,7 +17,7 @@ function Navbar() {
     } else setIcon("nav__toggler");
   };
   return (
-    <nav className="nav">
+    <nav className="nav position-fixed" >
       <a><img src={Logo} alt="Logo" /></a>
       <ul className={active}>
         <li className="nav__item">
@@ -46,8 +47,10 @@ function Navbar() {
         </li>
       </ul>
       <div className="grupo3Nav">
-      <a className="registrarse" href="#" src={Button}>Registrarse</a>
-      <a className="registrarse" href="#" src={Button}>Inicia Sesion</a>   
+      <a className="registrarse" href="https://login.legalify.app/login" src={Button}>Registrarse</a>
+      <a className="registrarse" href="https://login.legalify.app/login" src={Button}>Inicia Sesion</a> 
+    
+      
       </div>    
 
       <div onClick={navToggle} className={icon}>

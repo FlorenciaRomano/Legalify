@@ -14,7 +14,7 @@ import Boton2 from './boton2';
 import Boton3 from './boton3';
 import CheckIcon from '@mui/icons-material/Check';
 import ClearIcon from '@mui/icons-material/Clear';
-
+import PromocionAbogados from './PromocionAbogados';
 
 
 const styles = (theme) => ({
@@ -158,6 +158,7 @@ const styles = (theme) => ({
       <Boton3/>
       
       </div>
+      <PromocionAbogados/>
       </div>
     );
   }

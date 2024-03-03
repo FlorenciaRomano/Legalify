@@ -15,8 +15,8 @@ function Section1() {
                     botón a continuación para obtener más información.</p>
                   
                   <div className='botonesS1'>
-                    <a className="registrarse" href="#" src={Button}>Registrarse</a>
-                    <a className="financiar" href="#" src={Button}>Financiar</a>
+                    <a className="registrarse" href="https://login.legalify.app/redes?rol=2" src={Button}>Registrarse</a>
+                    <a className="financiar" href="https://login.legalify.app/redes?rol=2" src={Button}>Financiar</a>
                 </div>
             </div>
             <div className='imagenUno'>

@@ -15,9 +15,9 @@ function Footer() {
     </div>
     
     <div className='iconos'>
-        <img src={LogoIg} alt="instagram" />
-        <img src={LogoFb} alt="instagram" />
-        <img src={LogoLi} alt="instagram" />
+        <a href="https://www.instagram.com/legalify.app/"><img src= {LogoIg} alt="instagram" /></a>
+        <a href="https://www.facebook.com/legalify.ok"><img src={LogoFb} alt="instagram" /></a>
+        <a href="https://www.linkedin.com/company/legalify-global/"><img src={LogoLi} alt="instagram" /></a>
        
 
     </div>
