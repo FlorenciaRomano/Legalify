@@ -28,14 +28,20 @@ a {
   color: white;
 }
 
-.nav {
+header{
+  width: 100%;
+}
+
+.MuiToolbar-root {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 8vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 255, 0.548), rgb(0, 0, 0));
+  background-color: #89AEFF;
+ 
 }
+
 .nav__brand {
   text-transform: uppercase;
 }
@@ -57,11 +63,11 @@ a {
   transition: 0.3s ease-in;
 }
 
-.grupo3Nav{
+.grupoBotones{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 17%;
+  
  
 }
 
@@ -357,15 +363,28 @@ height: 12rem;
   justify-content: center;
 }
 
+/* TESTIMONIOS*/
+
+.testimonials{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-wrap: wrap;
+}
+
+
 /* FOOTTER*/
 
-.footer{
+footer{
   background-color:rgb(0, 33, 65);
   color: white;
   display: flex;
   justify-content: space-around;
   align-items:center;
   height: 11.6vh;
+  margin-top: 40px;
 }
 .iconos{
   width: 130px;

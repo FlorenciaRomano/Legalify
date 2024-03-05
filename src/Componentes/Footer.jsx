@@ -1,28 +1,80 @@
 import React from 'react';
-import '../styles/Index.css';
-import LogoIg from '../assets/instagramIcon.svg'
-import LogoFb from '../assets/facebookIcon.svg'
-import LogoLi from '../assets/linkedinIcon.svg'
+import {
+  Box,
+  Typography,
+  Link,
+  Stack,
+  useMediaQuery
+} from '@mui/material';
 
+const Footer = () => {
+  const isMobile = useMediaQuery('(max-width:600px)');
 
-
-function Footer() {
-    return(
-    <div className='footer'>
+  return (
+    <Box
+      sx={{
+        bgcolor: 'black',
+        py: 4,
+        px: isMobile ? 2 : 4,
+        textAlign: 'center',
+        marginTop:10
+      }}
+    >
+      <Typography variant="body2" color="white">
+        LEGALIFY ES UNA MARCA REGISTRADA DE LEGALIFY SAS 2020
+      </Typography>
     
-    <div className='marca'>
-    <p>LEGALIFY ES UNA MARCA REGISTRADA DE LEGALIFY SAS 2020</p>
-    </div>
-    
-    <div className='iconos'>
-        <a href="https://www.instagram.com/legalify.app/"><img src= {LogoIg} alt="instagram" /></a>
-        <a href="https://www.facebook.com/legalify.ok"><img src={LogoFb} alt="instagram" /></a>
-        <a href="https://www.linkedin.com/company/legalify-global/"><img src={LogoLi} alt="instagram" /></a>
-       
+      <Stack
+        direction="row"
+        justifyContent="center"
+        spacing={2}
+        my={2}
+      >
+        <Link
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          underline="hover"
+          color="white"
+        >
+          Instagram
+        </Link>
+        <Link
+          href="https://www.owlo.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          underline="hover"
+          color="white"
+        >
+          OWŁO
+        </Link>
+        <Link
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          underline="hover"
+          color="white"
+        >
+          Facebook
+        </Link>
+        <Link
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          underline="hover"
+          color="white"
+        >
+          LinkedIn
+        </Link>
+      </Stack>
+      <Typography variant="body2" color="white" fontSize={12}>
+        Términos y condiciones y política de cookies
+      </Typography>
+      <Typography variant="body2" color="white" mt={2} fontSize={12}>
+        &copy; {new Date().getFullYear()} Legalify SAS
+      </Typography>
+    </Box>
+  );
+};
 
-    </div>
-
-    </div>
-    )
-}
-export default Footer
+export default Footer;

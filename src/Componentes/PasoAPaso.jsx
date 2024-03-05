@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import { CardActionArea, CardActions } from '@mui/material';
 import Pasos from '../pasoAPaso'
 
 export default function PasoAPaso() {
@@ -11,19 +11,22 @@ export default function PasoAPaso() {
     <>
     {Pasos?.map((e)=>(
 
-    <Card sx={{ maxWidth: 150 }}>
+    <Card sx={{ maxWidth: 150,
+      mx: 'auto',
+      boxShadow: '0px 10px 15px rgba(0, 0, 0, 0.6)',
+      background: 'linear-gradient(135deg, #f5f5f5 0%, #d3d3d3 100%)'}}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="90"
+          height="100"
           image={e.img}
-          alt="green iguana"
+          alt={e.nombre}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {e.nombre}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="black">
             {e.descripcion}
           </Typography>
         </CardContent>
