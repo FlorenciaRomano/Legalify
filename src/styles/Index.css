@@ -258,11 +258,6 @@ header {
 
 }
 
-.MuiPaper-root {
-
-  width: 80%;
-}
-
 .MuiTypography-rootPrincipal {
   background-color: #89aeff81;
   height: 4vh;
@@ -424,7 +419,3 @@ footer {
   width: 80px;
 }
 
-
-.language-select{
-  background-color: #89AEFF;
-}
