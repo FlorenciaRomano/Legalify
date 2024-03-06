@@ -81,14 +81,11 @@ const Navbar = () => {
 
           {/* Language menu */}
 
-          <Select labelId='language-select-label' id='language-select' defaultValue='react' onChange={handleLanguageClick}>
-            <MenuItem className='widthMenu' value='react' onClick={() => handleLanguageSelect('react')}>
-              <LanguageIcon sx={{width: 40, height: 40}} />
-            </MenuItem>
+          <Select labelId='language-select-label' defaultValue='español' onChange={handleLanguageClick}>
             <MenuItem className='flagsNames widthMenu' value='english'>
               <img src={ENFlag} alt='English' />
             </MenuItem>
-            <MenuItem className='flagsNames widthMenu' value='spanish'>
+            <MenuItem className='flagsNames widthMenu' value='español'>
               <img src={ESFlag} alt='Español' />
             </MenuItem>
           </Select>
