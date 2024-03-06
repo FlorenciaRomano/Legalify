@@ -1,10 +1,10 @@
-.main{
-    background-color: white;
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-   
-    
+.main {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+
+
 }
 
 
@@ -14,21 +14,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-size: 1.6rem;
 }
+
 li {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   color: white;
 }
 
-header{
+header {
   width: 100%;
 }
 
@@ -39,7 +43,7 @@ header{
   height: 8vh;
   width: 100%;
   background-color: #89AEFF;
- 
+
 }
 
 .nav__brand {
@@ -52,9 +56,11 @@ header{
   justify-content: space-around;
   gap: 3rem;
 }
+
 .nav__toggler {
   display: none;
 }
+
 .nav__toggler div {
   width: 2.5rem;
   height: 0.2rem;
@@ -63,12 +69,12 @@ header{
   transition: 0.3s ease-in;
 }
 
-.grupoBotones{
+.grupoBotones {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
- 
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -76,6 +82,7 @@ header{
     display: block;
     cursor: pointer;
   }
+
   .nav__menu {
     position: fixed;
     top: 7vh;
@@ -88,6 +95,7 @@ header{
     transition: 0.5s ease-in;
   }
 }
+
 /* Active Class */
 .nav__active {
   transform: translateX(0%);
@@ -98,9 +106,11 @@ header{
 .toggle .line1 {
   transform: rotate(-45deg) translate(-4px, 5px);
 }
+
 .toggle .line2 {
   opacity: 0;
 }
+
 .toggle .line3 {
   transform: rotate(45deg) translate(-4px, -5px);
 }
@@ -108,89 +118,97 @@ header{
 
 
 /* BOTON REGISTRARSE*/
-.registrarse{
-background-color: rgb(3, 95, 170);
-color: white;
-height: 35px;
-width: 90px;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 3px;
-margin-top: 4px;
+.registrarse {
+  background-color: rgb(3, 95, 170);
+  color: white;
+  height: 35px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  margin-top: 4px;
 }
 
 /*SECCION UNO*/
-.sectionPrin{
+.sectionPrin {
   margin-top: 0%;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height:  45vh; ;
+  height: 45vh;
+  ;
   margin-top: 5%;
 }
 
-.section1{
+.section1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 30vh; 
+  height: 30vh;
   width: 400px;
   margin-left: 100px;
 }
-.imagenUno{
+
+.imagenUno {
   width: 400px;
 }
 
-.financiar{
-    background-color: rgb(3, 95, 170);
-    color: white;
-    height: 35px;
-    width: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 3px;
-    margin-top: 4px;
-    }
+.imagenUno>img {
+  width: 400px;
+  height: 400px;
+}
 
-    .botonesS1{
-      display: flex;
-      justify-content: space-around;
-      width: 60%;
-    }
-    
+.financiar {
+  background-color: rgb(3, 95, 170);
+  color: white;
+  height: 35px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+
+.botonesS1 {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
 /*SECCION DOS*/
-.sectionDos{
+.sectionDos {
   margin-top: 0%;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height:  55vh; ;
+  height: 55vh;
+  ;
   margin-top: 5%;
-  background-color:#89aeff81   ;
+  background-color: #89aeff81;
 }
 
-.section2{
+.section2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 30vh; 
+  height: 30vh;
   width: 400px;
-  
+
 }
 
-.imagenDos{
-  width:50%;
+.imagenDos {
+  width: 50%;
   display: flex;
   justify-content: center;
 }
 
 /* SECCION TRES*/
 
-.sectionTres{
+.sectionTres {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -199,136 +217,140 @@ margin-top: 4px;
   margin-top: 30px;
 }
 
-.pasoAPaso{
-display: flex;
-width: 100%;
-justify-content: center;
-flex-wrap: wrap;
-align-content: center;
-justify-content: space-around;
-align-items: center;
-margin-top: 20px;
+.pasoAPaso {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
 }
 
 /* SECCION cuatro*/
 
 
-.Seccion3{
+.Seccion3 {
   height: 130vh;
   width: 100%;
   margin-top: 50px;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- background-color:#fe9ecc54;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fe9ecc54;
 
 }
 
-#customized-dialog-title{
+#customized-dialog-title {
   background-color: rgba(0, 33, 65, 0.836);
   color: white;
 }
 
-.botonesS3{
+.botonesS3 {
   width: 50%;
   display: flex;
   margin-top: 5rem;
   justify-content: space-around;
 
- 
+
 
 }
-.MuiPaper-root{
-  
+
+.MuiPaper-root {
+
   width: 80%;
 }
 
-.MuiTypography-rootPrincipal{
-  background-color:#89aeff81;
+.MuiTypography-rootPrincipal {
+  background-color: #89aeff81;
   height: 4vh;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  
-  
+
+
 }
 
- .checkIcon{
-   color: white;
-   background-color: green;
-   border-radius: 7px;
-   font-size: 10px;
- }
+.checkIcon {
+  color: white;
+  background-color: green;
+  border-radius: 7px;
+  font-size: 10px;
+}
 
- .clearIcon{
+.clearIcon {
   color: white;
   background-color: red;
   border-radius: 7px;
- }
-#MuiButtonBase-root{
+}
+
+#MuiButtonBase-root {
   color: white;
   background-color: red;
   width: 6vh;
   height: 3.5vh;
   margin-top: 8px;
 }
- .MuiButton-label{
- 
+
+.MuiButton-label {
+
   height: 2rem;
   width: 4vh;
   border-radius: 2px;
- }
+}
 
 
- /* PASO A PASO*/
- .MuiCardContent-root{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-height: 12rem;
- }
+/* PASO A PASO*/
+.MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+}
 
- .MuiTypography-h5{
- display: flex;
- }
+.MuiTypography-h5 {
+  display: flex;
+}
 
 
- /* SECCION PROMO ABOGADOS*/
- .sectionPromo{
+/* SECCION PROMO ABOGADOS*/
+.sectionPromo {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
   color: rgb(0, 33, 65);
- }
- .imagenPromo{
+}
+
+.imagenPromo {
   display: flex;
   justify-content: center;
   margin-top: 10px;
- }
-
-
- .Promo{
-  display: flex;
- }
-
- 
-
-.botonPromo{
-  background-color: rgb(3, 95, 170);
-    color: white;
-    height: 35px;
-    width: 130px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 3px;
-    margin-top: 4px;
 }
 
-.ActionPromo{
+
+.Promo {
+  display: flex;
+}
+
+
+
+.botonPromo {
+  background-color: rgb(3, 95, 170);
+  color: white;
+  height: 35px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  margin-top: 4px;
+}
+
+.ActionPromo {
   display: flex;
   width: 200px;
   justify-content: center;
@@ -337,57 +359,72 @@ height: 12rem;
 
 
 /* TRIBUTO*/
-.sectionTributo{
+.sectionTributo {
   margin-top: 0%;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height:  40vh; ;
+  height: 40vh;
+  ;
   ;
 }
 
-.sectionTributo2{
+.sectionTributo2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 30vh; 
+  height: 30vh;
   margin-left: 20px;
- 
-  
+
+
 }
 
-.imagenTributo{
-  width:90%;
+.imagenTributo {
+  width: 90%;
   display: flex;
   justify-content: center;
 }
 
 /* TESTIMONIOS*/
 
-.testimonials{
-display: flex;
-width: 100%;
-justify-content: center;
-align-items: center;
-align-content: center;
-flex-wrap: wrap;
+.testimonials {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 
 /* FOOTTER*/
 
-footer{
-  background-color:rgb(0, 33, 65);
+footer {
+  background-color: rgb(0, 33, 65);
   color: white;
   display: flex;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
   height: 11.6vh;
   margin-top: 40px;
 }
-.iconos{
+
+.iconos {
   width: 130px;
   display: flex;
-   justify-content: space-around;
+  justify-content: space-around;
+}
+
+.flagsNames > img {
+  width: 40px;
+  height: 40px;
+}
+.widthMenu{
+  width: 80px;
+}
+
+
+.language-select{
+  background-color: #89AEFF;
 }
