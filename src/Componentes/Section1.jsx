@@ -65,4 +65,6 @@ function Section1() {
     </div>
   );
 }
+
 export default Section1;
+

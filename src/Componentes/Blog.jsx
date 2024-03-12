@@ -5,6 +5,7 @@ import SectionsBlog from './SectionsBlog'
 import Footer from './Footer'
 import SearchAppBar from './ImputSearch'
 
+
 const Blog = () => {
   return (
     <div>
@@ -23,6 +24,7 @@ const Blog = () => {
       </div>
 
       <Footer />
+
     </div>
   );
 };

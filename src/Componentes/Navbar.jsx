@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
-import {AppBar, Toolbar, Typography, Button, IconButton, MenuItem, Select} from '@mui/material'
+import {AppBar, Toolbar, Typography, Button, IconButton, Menu, MenuItem, Select, FormControl, InputLabel} from '@mui/material'
+import {Menu as MenuIcon} from '@mui/icons-material'
 import Logo from '../assets/logo_legalify_azul_transparente.png'
 import LanguageIcon from '@mui/icons-material/Language'
 import ENFlag from '../assets/Flags/ENFlag.webp'
@@ -81,7 +82,7 @@ const Navbar = () => {
           {/* Language menu */}
 
           <Select labelId='language-select-label' defaultValue='español' onChange={handleLanguageClick}>
-            <MenuItem className={LanguageIcon} value='english'>
+            <MenuItem className='flagsNames widthMenu' value='english'>
               <img src={ENFlag} alt='English' />
             </MenuItem>
             <MenuItem className='flagsNames widthMenu' value='español'>
