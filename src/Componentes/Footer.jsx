@@ -67,9 +67,12 @@ const Footer = () => {
           LinkedIn
         </Link>
       </Stack>
+      <Link href='/terms' target='_blank'>
+
       <Typography variant="body2" color="white" fontSize={12}>
         Términos y condiciones y política de cookies
       </Typography>
+      </Link>
       <Typography variant="body2" color="white" mt={2} fontSize={12}>
         &copy; {new Date().getFullYear()} Legalify SAS
       </Typography>
