@@ -6,6 +6,7 @@ import LanguageIcon from '@mui/icons-material/Language'
 import ENFlag from '../assets/Flags/ENFlag.webp'
 import ESFlag from '../assets/Flags/ESFlag.webp'
 import {Link, useLocation} from 'react-router-dom'
+import {useTranslation} from 'react-i18next'
 
 const useStyles = (theme) => ({
   title: {
@@ -16,6 +17,7 @@ const useStyles = (theme) => ({
 })
 
 const Navbar = () => {
+  const {t, i18n} = useTranslation()
   const classes = useStyles()
   const [blog, setBlog] = useState(true)
   // States for the language menu
@@ -31,16 +33,12 @@ const Navbar = () => {
   }, [location.pathname])
 
   const handleLanguageClick = (event) => {
-    setLanguageMenu(event.currentTarget)
+    setLanguageMenu(event.target.value)
+    i18n.changeLanguage(event.target.value)
   }
 
   const handleLanguageClose = () => {
     setLanguageMenu(null)
-  }
-
-  const handleLanguageSelect = (language) => {
-    // Handle language selection logic here
-    handleLanguageClose()
   }
 
   // List of menu items
@@ -81,11 +79,11 @@ const Navbar = () => {
 
           {/* Language menu */}
 
-          <Select labelId='language-select-label' defaultValue='español' onChange={handleLanguageClick}>
-            <MenuItem className='flagsNames widthMenu' value='english'>
+          <Select labelId='language-select-label' defaultValue='es' onChange={handleLanguageClick}>
+            <MenuItem className='flagsNames widthMenu' value='en'>
               <img src={ENFlag} alt='English' />
             </MenuItem>
-            <MenuItem className='flagsNames widthMenu' value='español'>
+            <MenuItem className='flagsNames widthMenu' value='es'>
               <img src={ESFlag} alt='Español' />
             </MenuItem>
           </Select>
