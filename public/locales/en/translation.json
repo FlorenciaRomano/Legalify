@@ -1,0 +1,16 @@
+{
+  "title": "Policy of privacy in english",
+  "description": {
+    "part1": "It is a digital platform that connects people who need legal advice (the 'clients') with specialized lawyers who can provide such advice (the 'legal advisors').<br/><br/>To properly provide this service, we need to collect personal information from our clients and legal advisors (the 'users'). <br/></br> We care about the privacy and security of your information. That's why we have created this privacy policy (the 'policy') where we transparently and understandably explain what information we collect, how we collect it and why we collect it.<br/> This policy complies with all applicable laws, including the General Data Protection Regulation (GDPR).",
+    "part2": "Switch language between english and german using buttons above."
+  },
+  "terms4": {
+    "t1": "At the time of registration on the platform:",
+    "t2": "After registration on the platform:",
+    "blue": "INFORMATION COLLECTED",
+    "ls1": ["Full name", "Email address", "Password", "Type of identification", "Phone number", "Country, province and place of residence."],
+    "ls2": ["Jurisdiction where the law practice is held.", "Bar Association where they obtained their membership.", "Tomo", "Folio", "Specialty"],
+    "ls3": ["Name of the case", "Description of the case", "Necessary files and documentation you will attach for legal advice purposes.", "Your profile picture, in case you decide to add it when configuring your profile.", "Your zip code, in case you decide to voluntarily enter this information when configuring your profile."],
+    "ls4": ["Fiscal identification number (NIF).", "Billing address of your payment method.", "Zip code.", "Your profile picture, in case you decide to add it when configuring your profile.", "The score or rating that the client gives you when evaluating your services.", "The status of your links with the clients and the actions you developed with them within the legal advice."]
+  }
+}
