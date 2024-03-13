@@ -4,6 +4,9 @@ import TermCS1 from './Terms1'
 import TermsCS2 from './Terms2'
 import TermsCS3 from './Terms3'
 import TermsCS4 from './terms4'
+import TermsCS5 from './Terms5'
+
+
 
 export default function Terms() {
   return (
@@ -14,6 +17,7 @@ export default function Terms() {
      <TermsCS2/>
      <TermsCS3/>
      <TermsCS4/>
+     <TermsCS5/>
     </div>
     </>
   )

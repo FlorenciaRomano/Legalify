@@ -1,6 +1,6 @@
 import React from 'react'
-import {useTranslation, withTranslation, Trans} from 'react-i18next'
-import {Box, Container, Typography} from '@mui/material'
+import {useTranslation, Trans} from 'react-i18next'
+import {Box, Typography} from '@mui/material'
 import LogoTC from '../assets/logo_legalify_azul_transparente.png'
 import Principal from '../assets/TerminosYcondiciones/dataBase.png'
 import contentImg from '../assets/TerminosYcondiciones/section4.png'
