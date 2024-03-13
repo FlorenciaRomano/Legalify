@@ -8,13 +8,16 @@ import PoliticaDePrivacidad from '../assets/TerminosYcondiciones/PoliticaDePriva
 const TermsCS2 = () => {
     return (
         <>
+            <div className='ContenedorGeneral'>
             <section className="legalify-section">
                 <div className="legalify-section__content">
-                    <h4 className="legalify-section__title">Bienvenido a Legalify</h4>
                     <img src={LogoTC} alt="" width={100} />
+                    <h4 className="legalify-section__title">Bienvenido a Legalify</h4>
                 </div>
             </section>
+            
 
+            <div className='ContenedorMedio'>
             <div  className='img1'>
             <img src={img1} alt="" width={200}/>
             </div>
@@ -27,7 +30,7 @@ const TermsCS2 = () => {
                     <img src={Candado} alt="" />
 
                 </div>
-                <div>
+                <div className='itemsP'> 
                 <p>
                     Es una plataforma digital que pone en contacto a personas que necesitan asesoramiento
                     jurídico (los "clientes") con abogados especializados que pueden proporcionar dicho
@@ -46,13 +49,16 @@ const TermsCS2 = () => {
                     de Protección de Datos (RGPD).
                 </p>
                 </div>
-
-                <div className='PoliticaDePrivacidad'>
+            
+            </section>
+            </div>
+            
+            <div className='PoliticaDePrivacidad'>
                     <img src={PoliticaDePrivacidad} alt="" />
                     <h2>POLITICA DE PRIVACIDAD</h2>
                 </div>
-            </section>
-           
+
+            </div>
         </>
     );
 };

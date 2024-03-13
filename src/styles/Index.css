@@ -436,6 +436,11 @@ footer {
   margin-top: 50px;
 }
 
+
+
+
+/* TERMINOS Y CONDICIONES*/
+/* SECCION 1*/
 .TermCS1{
   display: flex;
   flex-wrap: wrap;
@@ -443,7 +448,7 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   align-items: center;
-  height: 60vh;
+  height: 89vh;
 }
 
 .legalify-section__content{
@@ -466,7 +471,79 @@ footer {
 
 }
 
-.PoliticaDePrivacidad{
-  height: 10vh;
-  display: flex;
+
+/* SECCION 2*/
+.ContenedorGeneral{
+display: flex;
+gap: 2rem;
+margin-top: 20px;
+margin-bottom: 50px;
+height: 100vh;
 }
+
+.ContenedorMedio{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+
+.PoliticaDePrivacidad{
+  display: flex;
+  flex-direction: column;
+  background-color: #0A4273;
+  justify-content: space-around;
+  color: white;
+  border-radius: 8px;
+}
+
+.itemsP{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* SECCION 3*/
+
+.legalify-section__content3{
+  display: flex;
+  align-items: center;
+  gap:0.5rem
+}
+
+.ContenedorGeneralS3{
+  display: flex;
+  gap: 2rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  height: 85vh;
+  } 
+.ContenedorMedioS3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 80vh;
+  }
+
+  .itemsP3{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    margin-top: 40px;
+  }
+
+  .Seccion3TC{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .itemsS3{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 10px;
+  }
