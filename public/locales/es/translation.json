@@ -4,36 +4,29 @@
     "part1": "Es una plataforma digital que pone en contacto a personas que necesitan asesoramiento jurídico (los \"clientes\") con abogados especializados que pueden proporcionar dicho asesoramiento (los \"asesores jurídicos\").<br/><br/>Para prestar adecuadamente este servicio, necesitamos recabar información personal de nuestros clientes y asesores jurídicos (los \"usuarios\"). <br/></br> Nos preocupamos por la privacidad y seguridad de su información. Por eso hemos creado esta política de privacidad (la \"política\"). En ella se explica de forma transparente y comprensible qué información recogemos, cómo la recogemos y por qué la recogemos.<br/> Esta política sigue todas las leyes aplicables, incluido el Reglamento General Europeo de Protección de Datos (RGPD).",
     "part2": "Switch language between english and german using buttons above."
   },
-  "terms4" : {
+  "terms4": {
     "t1": "Al momento del registro en la plataforma:",
     "t2": "Despues del registro en la plataforma:",
     "blue": "INFORMACIÓN RECOPILADA",
-    "ls1": ["Nombres y Apellidos",
-"Correo electrónico",
-"Contraseña",
-"Tipo de identificación",
-"Número de teléfono",
-"País, provincia y lugar de residencia."],
-"ls2":[
-  "Jurisdicción donde se ejerce la abogacía.",
-"Colegio de Abogados en la cual obtuvo la colegiatura.",
-"Tomo",
-"Folio",
-"Especialidad"
-],
-"ls3": [
-  "Nombre del caso",
-"Descripción del caso",
-"Archivos y documentación necesaria que vayas a adjuntar para fines de la asesoría legal.",
-"Tu foto de perfil, en caso decidas agregarla al momento de configurar tu perfil.",
-"Tu código postal, en caso decidas ingresar voluntariamente esta información al momento de configurar tu perfil."
-],
-"ls4": [
-  "Número de identificación fiscal (NIF).",
-"Domicilio de facturación de tu medio de pago.",
-"Código postal.",
-"Tu foto de perfil, en caso decidas agregarla al momento de configurar tu perfil.",
-"La puntuación o calificación que el cliente te brinde al calificar tus servicios.",
-"El estado de tus vinculaciones con los clientes y las acciones que desarrollaste con ellos en el marco de la asesoría legal."]
+    "ls1": ["Nombres y Apellidos", "Correo electrónico", "Contraseña", "Tipo de identificación", "Número de teléfono", "País, provincia y lugar de residencia."],
+    "ls2": ["Jurisdicción donde se ejerce la abogacía.", "Colegio de Abogados en la cual obtuvo la colegiatura.", "Tomo", "Folio", "Especialidad"],
+    "ls3": ["Nombre del caso", "Descripción del caso", "Archivos y documentación necesaria que vayas a adjuntar para fines de la asesoría legal.", "Tu foto de perfil, en caso decidas agregarla al momento de configurar tu perfil.", "Tu código postal, en caso decidas ingresar voluntariamente esta información al momento de configurar tu perfil."],
+    "ls4": ["Número de identificación fiscal (NIF).", "Domicilio de facturación de tu medio de pago.", "Código postal.", "Tu foto de perfil, en caso decidas agregarla al momento de configurar tu perfil.", "La puntuación o calificación que el cliente te brinde al calificar tus servicios.", "El estado de tus vinculaciones con los clientes y las acciones que desarrollaste con ellos en el marco de la asesoría legal."]
+  },
+  "terms7": {
+    "blue": "¿PARA QUÉ UTILIZAMOS ESTA INFORMACIÓN PERSONAL?",
+    "ls1": [
+      "      Permitir y gestionar el registro de usuarios en Legalify.",
+      "Prestar nuestros servicios en la plataforma de Legalify. ",
+      "Proporcionar soporte técnico a los usuarios, resolver sus quejas y problemas, responder a preguntas y solicitudes, y proporcionar cualquier información necesaria a través de nuestros canales de comunicación.",
+      "Notificarle cualquier cambio en nuestro servicio.",
+      "Enviarle información sobre nuestro servicio que consideremos pueda ser de su interés.",
+      "Confirmar la identidad de los asesores jurídicos y validar su información profesional.",
+      "Detectar, investigar y prevenir actividades que puedan infringir nuestras políticas, plantear problemas de seguridad o ser fraudulentas o ilegales.",
+      "Informar a las autoridades pertinentes si identificamos información falsa.",
+      "Almacenar su información en servicios de almacenamiento en la nube en el extranjero, lo cual es necesario para proporcionar nuestros servicios a través de la plataforma de Legalify.",
+      "Operar, comprender, optimizar, desarrollar o mejorar nuestra plataforma, servicios y operaciones. Esto incluye la realización de encuestas a los usuarios y herramientas de análisis, en cuyo caso su información será anónima y no será rastreada hasta usted.",
+      "Procesar sus datos para cumplir una obligación legal o contractual."
+    ]
   }
 }
