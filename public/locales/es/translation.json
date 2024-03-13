@@ -1,0 +1,39 @@
+{
+  "title": "Nuestra política de privacidad de datos personales en español",
+  "description": {
+    "part1": "Es una plataforma digital que pone en contacto a personas que necesitan asesoramiento jurídico (los \"clientes\") con abogados especializados que pueden proporcionar dicho asesoramiento (los \"asesores jurídicos\").<br/><br/>Para prestar adecuadamente este servicio, necesitamos recabar información personal de nuestros clientes y asesores jurídicos (los \"usuarios\"). <br/></br> Nos preocupamos por la privacidad y seguridad de su información. Por eso hemos creado esta política de privacidad (la \"política\"). En ella se explica de forma transparente y comprensible qué información recogemos, cómo la recogemos y por qué la recogemos.<br/> Esta política sigue todas las leyes aplicables, incluido el Reglamento General Europeo de Protección de Datos (RGPD).",
+    "part2": "Switch language between english and german using buttons above."
+  },
+  "terms4" : {
+    "t1": "Al momento del registro en la plataforma:",
+    "t2": "Despues del registro en la plataforma:",
+    "blue": "INFORMACIÓN RECOPILADA",
+    "ls1": ["Nombres y Apellidos",
+"Correo electrónico",
+"Contraseña",
+"Tipo de identificación",
+"Número de teléfono",
+"País, provincia y lugar de residencia."],
+"ls2":[
+  "Jurisdicción donde se ejerce la abogacía.",
+"Colegio de Abogados en la cual obtuvo la colegiatura.",
+"Tomo",
+"Folio",
+"Especialidad"
+],
+"ls3": [
+  "Nombre del caso",
+"Descripción del caso",
+"Archivos y documentación necesaria que vayas a adjuntar para fines de la asesoría legal.",
+"Tu foto de perfil, en caso decidas agregarla al momento de configurar tu perfil.",
+"Tu código postal, en caso decidas ingresar voluntariamente esta información al momento de configurar tu perfil."
+],
+"ls4": [
+  "Número de identificación fiscal (NIF).",
+"Domicilio de facturación de tu medio de pago.",
+"Código postal.",
+"Tu foto de perfil, en caso decidas agregarla al momento de configurar tu perfil.",
+"La puntuación o calificación que el cliente te brinde al calificar tus servicios.",
+"El estado de tus vinculaciones con los clientes y las acciones que desarrollaste con ellos en el marco de la asesoría legal."]
+  }
+}
