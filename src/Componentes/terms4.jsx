@@ -11,13 +11,13 @@ export default function TermsCS4() {
     <Box sx={{display: 'flex', width: '96%', ml: 4, justifyContent: 'center'}}>
       <Box>
         <Box sx={{height: 300}}>
-          <Typography variant='h4' sx={{textDecoration:'underline'}}>
+          <Typography variant='h4' sx={{textDecoration: 'underline'}}>
             <Trans i18nKey='terms4.t1' />
           </Typography>
           <img src={contentImg} alt='Organización de datos' width={400} />
         </Box>
         <Box sx={{height: 300}}>
-          <Typography variant='h4' sx={{textDecoration:'underline'}}>
+          <Typography variant='h4' sx={{textDecoration: 'underline'}}>
             <Trans i18nKey='terms4.t2' />
           </Typography>
           <img src={contentImg} alt='Organización de datos' width={400} />
@@ -62,10 +62,10 @@ export default function TermsCS4() {
         </Box>
       </Box>
       <Box className='PoliticaDePrivacidad'>
-        <img src={Principal} alt='' />
-        <Typography variant='h2'>
+        <img src={Principal} width={200} alt={<Trans i18nKey='terms4.blue' />} />
+        <h2>
           <Trans i18nKey='terms4.blue' />
-        </Typography>
+        </h2>
       </Box>
     </Box>
   )
