@@ -62,13 +62,8 @@ export default function TermsCS4() {
         </Box>
       </Box>
       <Box className='PoliticaDePrivacidad'>
-<<<<<<< HEAD
-        <img src={Principal} alt='' width={200} />
-        <Typography variant='h2'>
-=======
         <img src={Principal} width={200} alt={<Trans i18nKey='terms4.blue' />} />
         <h2>
->>>>>>> a2c9e7bddbceca0f7123cb0bc7c61da114c58ceb
           <Trans i18nKey='terms4.blue' />
         </h2>
       </Box>
