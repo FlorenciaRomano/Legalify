@@ -443,13 +443,14 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
 }
 
 .legalify-section__content{
   display: flex;
   flex-direction: column;
   padding-left: 10px;
+  margin-top: 40px;
 }
 
 .img1{
@@ -459,5 +460,13 @@ footer {
 }
 
 .Seccion1TC{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.PoliticaDePrivacidad{
+  height: 10vh;
   display: flex;
 }
