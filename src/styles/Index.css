@@ -23,10 +23,6 @@ body {
   font-size: 1.6rem;
 }
 
-li {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -546,4 +542,8 @@ gap: 1rem;
     flex-direction: column;
     gap: 2rem;
     margin-left: 10px;
+  }
+
+  .textListSec4{
+    font-size: small;
   }
