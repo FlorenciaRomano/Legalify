@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import * as ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Blog from './Componentes/Blog'
-
+import './i18n'
 import Terms from './Componentes/Terms'
 
 
