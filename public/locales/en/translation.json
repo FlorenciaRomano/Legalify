@@ -12,5 +12,22 @@
     "ls2": ["Jurisdiction where the law practice is held.", "Bar Association where they obtained their membership.", "Tomo", "Folio", "Specialty"],
     "ls3": ["Name of the case", "Description of the case", "Necessary files and documentation you will attach for legal advice purposes.", "Your profile picture, in case you decide to add it when configuring your profile.", "Your zip code, in case you decide to voluntarily enter this information when configuring your profile."],
     "ls4": ["Fiscal identification number (NIF).", "Billing address of your payment method.", "Zip code.", "Your profile picture, in case you decide to add it when configuring your profile.", "The score or rating that the client gives you when evaluating your services.", "The status of your links with the clients and the actions you developed with them within the legal advice."]
+  },
+
+  "terms7": {
+    "blue": "WHAT DO WE USE THIS PERSONAL INFORMATION FOR?",
+    "ls1": [
+      "      Allow and manage user registrations on Legalify.",
+      "Provide our services on Legalify’s platform.",
+      "Provide technical support to users, resolve their complaints and problems, answer questions and requests, and provide any necessary information through our communication channels.",
+      "Notify you of any changes to our service",
+      "Send you information about our service that we think might interest you.",
+      "Confirm the identity of legal advisors and validate their professional information.",
+      "Detect, investigate, and prevent activities that may violate our policies, pose safety issues, or be fraudulent or illegal.",
+      "Inform the relevant authorities if we identify false information.",
+      "Store your information in offshore cloud storage services, which is necessary to provide our services through Legalify’s platform.",
+      "Operate, understand, optimize, develop, or improve our platform, services, and operations. This includes conducting user survey research and analytics tools, in which case your information will be anonymized and will not trace back to you.",
+      "Process your data to fulfil a legal or a contractual obligation."
+    ]
   }
 }
