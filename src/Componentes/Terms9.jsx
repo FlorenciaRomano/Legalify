@@ -35,12 +35,14 @@ const TermsCS9 = () => {
                                 puede utilizar su cuenta preexistente de "Facebook", "Google" o "LinkedIn"
                                 para iniciar sesión fácilmente en nuestro sitio web.
                             </p>
+                           
+                           <span>
                             <img src={LogoTC} alt="" width={150} />
                             <p>
                                 no controla estos sitios web y no es responsable de su contenido, políticas
                                 de privacidad, medidas de seguridad, o cómo utilizan su información personal.
                             </p>
-
+                            </span>
                             <p>
                                 Tenga en cuenta que estas plataformas y redes sociales pueden recopilar su información,
                                 lo cual está fuera del control de Legalify. Cualquier información que usted les

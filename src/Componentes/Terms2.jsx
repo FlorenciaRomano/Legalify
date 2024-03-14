@@ -11,8 +11,8 @@ const TermsCS2 = () => {
             <div className='ContenedorGeneral'>
             <section className="legalify-section">
                 <div className="legalify-section__content">
+                    <h4 className="legalify-section__title">¡Bienvenido a Legalify!</h4>
                     <img src={LogoTC} alt="" width={100} />
-                    <h4 className="legalify-section__title">Bienvenido a Legalify</h4>
                 </div>
             </section>
             

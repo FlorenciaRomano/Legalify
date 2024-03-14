@@ -11,6 +11,12 @@ import TermsCS8 from './terms8'
 import TermsCS9 from './Terms9'
 import TermsCS10 from './terms10'
 import TermsCS11 from './Terms11'
+import TermsCS12 from './Terms12'
+import TermsCS13 from './Terms13'
+import TermsCS14 from './Terms14'
+import TermsCS15 from './Terms15'
+import TermsCS16 from './Terms16'
+import TermsCS17 from './Terms17'
 
 
 
@@ -32,7 +38,12 @@ export default function Terms() {
      <TermsCS9/>
      <TermsCS10/>
      <TermsCS11/>   
-
+     <TermsCS12/>
+     <TermsCS13/>
+     <TermsCS14/>
+     <TermsCS15/>
+     <TermsCS16/>
+     <TermsCS17/>
     </div>
     </>
   )
