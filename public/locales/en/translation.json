@@ -37,5 +37,11 @@
     "item3": "Host our website in the cloud, so we can provide our services.",
     "item4": "Comply with the law or with a court order.",
     "blue": "Transfer of personal information to third parties"
+  },
+  "terms10": {
+    "blue": "Information collected by other platforms and social networks",
+    "description": "Our services contain links to other platforms. Also, you can use your pre-existing ‘Facebook’, ‘Google’, or ‘LinkedIn’ account to easily log in to our website.",
+    "item1": "Legalify does not control these websites and is not responsible for their content, privacy policies, security measures, or how they use your personal information.",
+    "item2": "Please be aware that these platforms and social networks may collect your information, which is beyond Legalify’s control. </br> Any information you provide to them is subject to their privacy policies, not Legalify’s. </br> Therefore, we encourage you to carefully read the terms of use and privacy policies of such third parties to understand how they collect, use, and share your personal information with us or with other third parties."
   }
 }
