@@ -29,5 +29,13 @@
       "Operate, understand, optimize, develop, or improve our platform, services, and operations. This includes conducting user survey research and analytics tools, in which case your information will be anonymized and will not trace back to you.",
       "Process your data to fulfil a legal or a contractual obligation."
     ]
+  },
+  "terms8": {
+    "description": "will not share your personal information with third parties except in limited circumstances:",
+    "item1": "Provide our services.",
+    "item2": "Validate the information you provided at the time of your registration.",
+    "item3": "Host our website in the cloud, so we can provide our services.",
+    "item4": "Comply with the law or with a court order.",
+    "blue": "Transfer of personal information to third parties"
   }
 }

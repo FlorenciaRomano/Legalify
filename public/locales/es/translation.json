@@ -28,5 +28,13 @@
       "Operar, comprender, optimizar, desarrollar o mejorar nuestra plataforma, servicios y operaciones. Esto incluye la realización de encuestas a los usuarios y herramientas de análisis, en cuyo caso su información será anónima y no será rastreada hasta usted.",
       "Procesar sus datos para cumplir una obligación legal o contractual."
     ]
+  },
+  "terms8":{
+    "description":"no compartirá su información personal con terceros excepto, en las siguientes circunstancias limitadas:",
+    "item1": "Para prestar nuestro servicio",
+    "item2": "Para validar la información que proporcionó en el momento de su inscripción.",
+    "item3": "Para alojar nuestro sitio web en la nube, para poder prestar nuestros servicios.",
+    "item4": "Para cumplir la ley o una orden judicial.",
+    "blue": "CESIÓN DE DATOS PERSONALES A TERCEROS"
   }
 }
