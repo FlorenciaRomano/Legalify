@@ -8,6 +8,7 @@ import TermsCS5 from './Terms5'
 import TermsCS6 from './Terms6'
 import TermsCS7 from './terms7'
 import TermsCS8 from './terms8'
+import TermsCS10 from './terms10'
 
 
 
@@ -24,6 +25,7 @@ export default function Terms() {
      <TermsCS6/>
      <TermsCS7/>
      <TermsCS8/>
+     <TermsCS10/>
 
     </div>
     </>
