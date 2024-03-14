@@ -29,8 +29,8 @@ export default function Terms() {
      <TermsCS6/>
      <TermsCS7/>
      <TermsCS8/>
-     <TermsCS10/>
      <TermsCS9/>
+     <TermsCS10/>
      <TermsCS11/>   
 
     </div>
