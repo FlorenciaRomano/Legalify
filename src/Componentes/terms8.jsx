@@ -11,7 +11,7 @@ import item4 from '../assets/TerminosYcondiciones/s8i4.png'
 export default function TermsCS8() {
   const {t, i18n} = useTranslation()
   return (
-    <Box sx={{mt: 4, display: 'flex', width: '96%', ml: 4, justifyContent: 'center'}}>
+    <Box sx={{mt: 4, display: 'flex', ml: 1, justifyContent: 'center'}}>
       <Box>
         <Box>
           <img src={Logo} width={130} alt={<Trans i18nKey='terms8.item1' />} />
@@ -49,7 +49,7 @@ export default function TermsCS8() {
         </Box>
       </Box>
       <Box className='PoliticaDePrivacidad'>
-        <img src={Principal} width={200} alt={<Trans i18nKey='terms7.blue' />} />
+        <img src={Principal} width={150} alt={<Trans i18nKey='terms7.blue' />} />
         <h2>
           <Trans i18nKey='terms8.blue' />
         </h2>

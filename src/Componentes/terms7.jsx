@@ -18,7 +18,7 @@ export default function TermsCS7() {
         </Box>
       </Box>
       <Box className='PoliticaDePrivacidad'>
-        <img src={Principal} width={200} alt={<Trans i18nKey='terms7.blue' />} />
+        <img src={Principal} width={130} alt={<Trans i18nKey='terms7.blue' />} />
         <h2>
           <Trans i18nKey='terms7.blue' />
         </h2>

@@ -583,7 +583,7 @@ gap: 1rem;
     margin-left: 10px;
   }
 
-  /* SECCION 5*/
+  /* SECCION 6*/
 
 .ContenedorGeneralS6{
   display: flex;
@@ -610,4 +610,56 @@ gap: 1rem;
     gap: 4rem;
     margin-left: 10px;
     margin-top: 20rem;
+  }
+
+
+
+    /* SECCION 9*/
+
+
+    .legalify-section__content9{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+  .ContenedorGeneralS9{
+    display: flex;
+    gap: 2rem;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    height: 83vh;
+  }
+
+  .itemsP9{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 10rem;
+  }
+
+
+  .itemsS9{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 20rem;
+  }
+
+  .Seccion9TC{
+    display: flex;
+    gap: 2rem;
+    align-items: flex-end;
+  }
+
+
+      /* SECCION 11*/
+
+
+  .itemsS11{
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    margin-top: 5rem;
   }
