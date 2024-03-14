@@ -1,43 +1,37 @@
 import React from 'react'
-import {useTranslation, Trans} from 'react-i18next'
-import {Box, Typography} from '@mui/material'
-import Logo from '../assets/TerminosYcondiciones/LegalifyLogo.png'
-import item1 from '../assets/TerminosYcondiciones/s8i1.png'
-import item2 from '../assets/TerminosYcondiciones/linkicon.png'
-import item3 from '../assets/TerminosYcondiciones/mediaicon.png'
-import item4 from '../assets/TerminosYcondiciones/NotificationIcon.png'
+import Item1 from '../assets/TerminosYcondiciones/section10item1.png'
+import Item2 from '../assets/TerminosYcondiciones/section10item2.png'
+import Item3 from '../assets/TerminosYcondiciones/section10item3.png'
+import Principal from '../assets/TerminosYcondiciones/Seccion11Derecha.png'
 
-export default function TermsCS10() {
-  const {t, i18n} = useTranslation()
+const TermsCS10 = () => {
   return (
-    <Box sx={{mt: 4, display: 'flex', width: '90%', ml: 4, justifyContent: 'center'}}>
-      <Box>
-        <Box mt={4} sx={{width: '100%', display: 'flex', justifyContent: 'space-around'}}>
-          <img src={item1} width={150} alt='item1' />
-          <img src={item2} width={150} alt='item2' />
-          <img src={item3} width={150} alt='item3' />
-        </Box>
-        <Box  sx={{ display:'flex', flexDirection:'column', alignItems:'center'}}>
-          <Box mt={4} width='70%' textAlign='justify'>
-            <Trans i18nKey='terms10.description' />
-          </Box>
-          <Box width='70%' textAlign='justify' sx={{display: 'flex', flexDirection: 'column'}}>
-            <img src={Logo} width={130} alt={<Trans i18nKey='terms10.item1' />} />
-            <Trans i18nKey='terms10.item1' />
-          </Box>
-          <Box display={'flex'} justifyContent={'center'} mt={8}>
-            <img src={item4} width={130} alt={<Trans i18nKey='terms10.item1' />} />
-            <Box textAlign='justify' width='60%'>
-              <Trans i18nKey='terms10.item2' />
-            </Box>
-          </Box>
-        </Box>
-      </Box>
-      <Box className='PoliticaDePrivacidad'>
-        <h2>
-          <Trans i18nKey='terms8.blue' />
-        </h2>
-      </Box>
-    </Box>
+    <>
+      <div className='ContenedorGeneralS3'>
+        <div className='ContenedorMedioS3'>
+          <section className='Seccion3TC'>
+            <div className='itemsS11'>
+              <img src={Item1} width={80} alt='' />
+              <img src={Item2} width={80} alt='' />
+              <img src={Item3} width={80} alt='' />
+            </div>
+            <div className='itemsP3'>
+              <p>La información que nos proporcione será almacenada durante el tiempo que sea necesario, mientras dure su relación con nuestra plataforma o para el fin específico para el que se recopilaron los datos. En algunos casos, es posible que necesitemos conservar sus datos durante un período más largo para cumplir con obligaciones legales. Incluso si cierra su cuenta, podemos conservar información anonimizada o disociada con fines de investigación y desarrollo.</p>
+
+              <p>Tratamos sus datos personales con total confidencialidad. Sólo los miembros autorizados del personal de Legalify que necesiten acceder a la información para los fines descritos anteriormente (artículo 4) la tratarán. Nos comprometemos a mantener la privacidad de sus datos indefinidamente.</p>
+
+              <p>Hemos implantado medidas técnicas y organizativas para evitar la alteración, pérdida, acceso no autorizado o cualquier acción que pueda comprometer la seguridad, confidencialidad y disponibilidad de su información. Nuestras medidas incluyen la identificación y prevención de incidentes, así como la resolución de cualquier problema que surja. Supervisamos regularmente nuestros sistemas para detectar vulnerabilidades y posibles ataques.</p>
+            </div>
+          </section>
+        </div>
+
+        <div className='PoliticaDePrivacidad'>
+          <img src={Principal} alt='' />
+          <h2>CONSERVACIÓN, CONFINDENCIALIDAD Y SEGURIDAD DE LOS DATOS </h2>
+        </div>
+      </div>
+    </>
   )
 }
+
+export default TermsCS10
