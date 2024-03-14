@@ -57,7 +57,7 @@ const TermsCS11 = () => {
 
                 <div className='PoliticaDePrivacidad'>
                     <img src={Principal} alt="" />
-                    <h2>¿QUE INFORMACION RECOPILAMOS?</h2>
+                    <h2>CONSERVACIÓN, CONFINDENCIALIDAD Y SEGURIDAD DE LOS DATOS </h2>
                 </div>
 
             </div>
