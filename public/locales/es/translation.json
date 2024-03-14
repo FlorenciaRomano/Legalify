@@ -36,5 +36,11 @@
     "item3": "Para alojar nuestro sitio web en la nube, para poder prestar nuestros servicios.",
     "item4": "Para cumplir la ley o una orden judicial.",
     "blue": "CESIÓN DE DATOS PERSONALES A TERCEROS"
+  },
+  "terms10":{
+    "blue":"INFORMACIÓN RECOPILADA POR OTRAS PLATAFORMAS Y REDES SOCIALES",
+    "description": "Nuestros servicios contienen enlaces a otras plataformas. Además, puede utilizar su cuenta preexistente de \"Facebook\", \"Google\" o \"LinkedIn\" para iniciar sesión fácilmente en nuestro sitio web.",
+    "item1": "no controla estos sitios web y no es responsable de su contenido, políticas de privacidad, medidas de seguridad, o cómo utilizan su información personal.",
+    "item2":"Tenga en cuenta que estas plataformas y redes sociales pueden recopilar su información, lo cual está fuera del control de Legalify. Cualquier información que usted les proporcione está sujeta a sus políticas de privacidad, no a las de Legalify.<br/>Por lo tanto, le recomendamos que lea detenidamente las condiciones de uso y las políticas de privacidad de dichos terceros."
   }
 }
