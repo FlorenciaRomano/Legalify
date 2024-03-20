@@ -16,7 +16,7 @@ export default function TermsCS4() {
           <>
             <Box>
               <Box sx={{height: 300, width:'95vw'}}>
-                <Typography variant='h4' sx={{textDecoration: 'underline', bgcolor: 'red'}}>
+                <Typography variant='h4' sx={{textDecoration: 'underline'}}>
                   <Trans i18nKey='terms4.t1' />
                 </Typography>
                 <img src={contentImg} alt='Organización de datos' width={350} />
