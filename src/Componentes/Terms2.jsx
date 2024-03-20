@@ -38,6 +38,8 @@ const TermsCS2 = () => {
               </Box>
             </div>
           </section>
+
+         
         </div>
         {isMobile ? null : (
           <div className='PoliticaDePrivacidad'>

@@ -17,7 +17,6 @@ const TermsCS3 = () => {
             <img src={LogoTC} alt='' width={100} />
             <h4>Recoge información personal de usted, el usuario, en tres momentos: </h4>
           </div>
-
           <section className='Seccion3TC'>
             <div className='itemsS3'>
               <img src={Item1} alt='' />
@@ -42,7 +41,7 @@ const TermsCS3 = () => {
         </div>
         {isMobile ? null : (
           <div className='PoliticaDePrivacidadS3'>
-            <img src={Principal} alt='' width={200} />
+            <img src={Principal} alt='' width={150} />
             <h2>¿QUE INFORMACION RECOPILAMOS?</h2>
           </div>
         )}

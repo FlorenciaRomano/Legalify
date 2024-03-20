@@ -8,8 +8,6 @@
 }
 
 
-
-
 *,
 *::after,
 *::before {
@@ -39,7 +37,7 @@ header {
   align-items: center;
   justify-content: space-around;
   height: 8vh;
-  width: 100%;
+  width: 98%;
   background-color: #89AEFF;
 
 }
@@ -519,9 +517,9 @@ gap: 1rem;
   justify-content: space-around;
   width: 100%;
   gap: 7rem;
-  margin-top: 20px;
+  margin-top: 5rem;
   margin-bottom: 50px;
-  height: 85vh;
+  height: 100vh;
   } 
 .ContenedorMedioS3{
   display: flex;
@@ -755,7 +753,15 @@ gap: 1rem;
   margin-left: 6rem;}
 
       /* SECCION 11*/
-
+      .ContenedorGeneralS11{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        gap: 7rem;
+        margin-top: 15rem;
+        margin-bottom: 50px;
+        height: 100vh;
+      }
 
   .itemsS11{
     display: flex;
@@ -785,7 +791,18 @@ gap: 1rem;
     } 
 
   /* SECCION 13*/  
+  .ContenedorGeneralS13{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 7rem;
+    margin-top: 15rem;
+    margin-bottom: 50px;
+    height: 100vh;
+  }
+  
   .itemsS13{
+
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -857,6 +874,17 @@ gap: 1rem;
     } 
 
   /* SECCION 16*/
+
+  .ContenedorGeneralS16{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 8rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 85vh;
+    } 
+
   .FilaUnoS16{
     display: flex;
     flex-direction: column;

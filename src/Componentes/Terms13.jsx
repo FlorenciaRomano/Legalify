@@ -7,7 +7,7 @@ import Principal from '../assets/TerminosYcondiciones/Seccion12Derecha.png'
 const TermsCS13 = () => {
     return (
         <>
-            <div className='ContenedorGeneralS3'>
+            <div className='ContenedorGeneralS13'>
 
 
                 <div className='ContenedorMedioS3'>

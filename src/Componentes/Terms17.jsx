@@ -5,7 +5,7 @@ import Item from '../assets/TerminosYcondiciones/Seccion17Derecha.png'
 const TermsCS17 = () => {
   return (
     <>
-      <div className='ContenedorGeneralS3'>
+      <div className='ContenedorGeneralS16'>
         <div className='ContenedorMedioS16'>
           <section className='Seccion3TC'>
             <div className='itemsP15'>

@@ -8,7 +8,7 @@ import Principal from '../assets/TerminosYcondiciones/Seccion16Derecha.png'
 const TermsCS16 = () => {
     return (
         <>
-            <div className='ContenedorGeneralS3'>
+            <div className='ContenedorGeneralS16'>
 
     
                 <div className='ContenedorMedioS3'>
