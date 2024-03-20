@@ -26,26 +26,26 @@ import { Box } from '@mui/material'
 export default function Terms() {
   return (
     <>
-    <Navbar/>
-    <Box  width={'100vw'}> 
-     <TermCS1/>
-     <TermsCS2/>
-     <TermsCS3/>
-     <TermsCS4/>
-     <TermsCS5/>
-     <TermsCS6/>
-     <TermsCS7/>
-     <TermsCS8/>
-     <TermsCS9/>
-     <TermsCS10/>
-     <TermsCS11/>   
-     <TermsCS12/>
-     <TermsCS13/>
-     <TermsCS14/>
-     <TermsCS15/>
-     <TermsCS16/>
-     <TermsCS17/>
-    </Box>
+      <Navbar />
+      <Box sx={{width: {md: '100%', xs: '100vw'}}}>
+        <TermCS1 />
+        <TermsCS2 />
+        <TermsCS3 />
+        <TermsCS4 />
+        <TermsCS5 />
+        <TermsCS6 />
+        <TermsCS7 />
+        <TermsCS8 />
+        <TermsCS9 />
+        <TermsCS10 />
+        <TermsCS11 />
+        <TermsCS12 />
+        <TermsCS13 />
+        <TermsCS14 />
+        <TermsCS15 />
+        <TermsCS16 />
+        <TermsCS17 />
+      </Box>
     </>
   )
 }
