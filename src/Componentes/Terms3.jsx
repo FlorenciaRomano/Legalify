@@ -17,7 +17,6 @@ const TermsCS3 = () => {
             <img src={LogoTC} alt='' width={100} />
             <h4>Recoge información personal de usted, el usuario, en tres momentos: </h4>
           </div>
-
           <section className='Seccion3TC'>
             <div className='itemsS3'>
               <img src={Item1} alt='' />
