@@ -461,6 +461,7 @@ footer {
 }
 
 .Seccion1TC{
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -474,7 +475,6 @@ display: flex;
 gap: 2rem;
 margin-top: 20px;
 margin-bottom: 50px;
-height: 100vh;
 }
 
 .ContenedorMedio{
@@ -506,17 +506,20 @@ gap: 1rem;
 /* SECCION 3*/
 
 .legalify-section__content3{
+  
   display: flex;
   align-items: center;
   gap:0.5rem
 }
 
 .ContenedorGeneralS3{
+  
   display: flex;
   gap: 2rem;
+  background-color: blue;
+  min-height: 100vh;
   margin-top: 20px;
   margin-bottom: 50px;
-  height: 85vh;
   } 
 .ContenedorMedioS3{
   display: flex;
