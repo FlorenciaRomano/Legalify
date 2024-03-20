@@ -15,7 +15,7 @@ export default function TermsCS4() {
         {isMobile ? (
           <>
             <Box>
-              <Box sx={{height: 300, width:'95vw', bgcolor: 'blue'}}>
+              <Box sx={{height: 300, width:'95vw'}}>
                 <Typography variant='h4' sx={{textDecoration: 'underline', bgcolor: 'red'}}>
                   <Trans i18nKey='terms4.t1' />
                 </Typography>
