@@ -9,7 +9,7 @@ import TermsCS6 from './Terms6'
 import TermsCS7 from './terms7'
 import TermsCS8 from './terms8'
 import TermsCS9 from './Terms9'
-import TermsCS10 from './terms10'
+import TermsCS10 from './Terms10'
 import TermsCS11 from './Terms11'
 import TermsCS12 from './Terms12'
 import TermsCS13 from './Terms13'
@@ -17,6 +17,7 @@ import TermsCS14 from './Terms14'
 import TermsCS15 from './Terms15'
 import TermsCS16 from './Terms16'
 import TermsCS17 from './Terms17'
+import { Box } from '@mui/material'
 
 
 
@@ -26,7 +27,7 @@ export default function Terms() {
   return (
     <>
     <Navbar/>
-    <div> 
+    <Box  width={'100vw'}> 
      <TermCS1/>
      <TermsCS2/>
      <TermsCS3/>
@@ -44,7 +45,7 @@ export default function Terms() {
      <TermsCS15/>
      <TermsCS16/>
      <TermsCS17/>
-    </div>
+    </Box>
     </>
   )
 }
