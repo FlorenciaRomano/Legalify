@@ -255,7 +255,7 @@ header {
 }
 
 .MuiTypography-rootPrincipal {
-  background-color: #0042d181;
+  background-color: #89aeff81;
   height: 4vh;
   display: flex;
   align-items: flex-end;
@@ -488,7 +488,7 @@ gap: 1rem;
 .PoliticaDePrivacidad{
   display: flex;
   flex-direction: column;
-  background-color: #730a0a;
+  background-color: #0A4273;
   justify-content: space-around;
   align-items: center;
   width: 34%;
