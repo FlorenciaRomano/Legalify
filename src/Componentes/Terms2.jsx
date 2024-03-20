@@ -4,20 +4,22 @@ import img1 from '../assets/TerminosYcondiciones/ImagenS2.png'
 import Info from '../assets/TerminosYcondiciones/info.png'
 import Candado from '../assets/TerminosYcondiciones/candado.png'
 import PoliticaDePrivacidad from '../assets/TerminosYcondiciones/PoliticaDePrivacidad.png'
-import {Box, Container, useMediaQuery} from '@mui/material'
+import { Box, Container, useMediaQuery } from '@mui/material'
 
 const TermsCS2 = () => {
-  const isMobile = useMediaQuery('(max-width: 768px)')
+  const isMobile = useMediaQuery('(max-width: 480px)')
 
   return (
-    <Container container sx={{height:'100vh'}}>
+    <Container container sx={{ height: '100vh' }}>
       <div className='ContenedorGeneral'>
-        <section className='legalify-section'>
-          <div className='legalify-section__content'>
-            <h4 className='legalify-section__title'>¡Bienvenido a Legalify!</h4>
-            <img src={LogoTC} alt='' width={100} />
-          </div>
-        </section>
+
+
+        <div className='legalify-section__content'>
+          <h4 className='legalify-section__title'>¡Bienvenido a Legalify!</h4>
+          <img src={LogoTC} alt='' width={100} />
+
+        </div>
+
 
         <div className='ContenedorMedio'>
           <div className='img1'>

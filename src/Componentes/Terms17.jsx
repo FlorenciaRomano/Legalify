@@ -6,7 +6,7 @@ const TermsCS17 = () => {
   return (
     <>
       <div className='ContenedorGeneralS3'>
-        <div className='ContenedorMedioS14'>
+        <div className='ContenedorMedioS16'>
           <section className='Seccion3TC'>
             <div className='itemsP15'>
                 <img src={Item} alt="" width={250} />
@@ -20,7 +20,7 @@ const TermsCS17 = () => {
           </section>
         </div>
 
-        <div className='PoliticaDePrivacidad'>
+        <div className='PoliticaDePrivacidadS17'>
           
           <h2>CONTACTO</h2>
         </div>

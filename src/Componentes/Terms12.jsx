@@ -8,7 +8,7 @@ import Principal from '../assets/TerminosYcondiciones/Seccion12Derecha.png'
 const TermsCS12 = () => {
     return (
         <>
-            <div className='ContenedorGeneralS3'>
+            <div className='ContenedorGeneralS12'>
 
 
                 <div className='ContenedorMedioS3'>
@@ -84,8 +84,8 @@ const TermsCS12 = () => {
                     </section>
                 </div>
 
-                <div className='PoliticaDePrivacidad'>
-                    <img src={Principal} alt="" />
+                <div className='PoliticaDePrivacidadS10'>
+                    <img src={Principal} alt="" width={200} />
                     <h2>DERECHOS Y OPCIONES </h2>
                 </div>
 

@@ -8,7 +8,7 @@ import contentImg from '../assets/TerminosYcondiciones/section4.png'
 export default function TermsCS4() {
   const {t, i18n} = useTranslation()
   return (
-    <Box sx={{display: 'flex', width: '96%', ml: 4, justifyContent: 'center'}}>
+    <Box sx={{display: 'flex', width: '95%', ml: 4, justifyContent: 'center'}}>
       <Box>
         <Box sx={{height: 300}}>
           <Typography variant='h4' sx={{textDecoration: 'underline'}}>
@@ -61,9 +61,9 @@ export default function TermsCS4() {
           </ul>
         </Box>
       </Box>
-      <Box className='PoliticaDePrivacidad'>
+      <Box className='PoliticaDePrivacidad' sx={{width:'30vw'}}>
 
-        <img src={Principal} alt='' width={150} />
+        <img src={Principal} alt='' width={160} />
         <Typography variant='h2'/>
         
 

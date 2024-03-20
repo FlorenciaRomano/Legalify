@@ -7,7 +7,7 @@ import Principal from '../assets/TerminosYcondiciones/Seccion3Derecha.png'
 import { useMediaQuery } from '@mui/material'
 
 const TermsCS3 = () => {
-  const isMobile = useMediaQuery('(max-width: 768px)')
+  const isMobile = useMediaQuery('(max-width: 480px)')
 
   return (
     <>
@@ -41,8 +41,8 @@ const TermsCS3 = () => {
           </section>
         </div>
         {isMobile ? null : (
-          <div className='PoliticaDePrivacidad'>
-            <img src={Principal} alt='' />
+          <div className='PoliticaDePrivacidadS3'>
+            <img src={Principal} alt='' width={200} />
             <h2>¿QUE INFORMACION RECOPILAMOS?</h2>
           </div>
         )}

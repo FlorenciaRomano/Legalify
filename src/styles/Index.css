@@ -8,6 +8,8 @@
 }
 
 
+
+
 *,
 *::after,
 *::before {
@@ -228,7 +230,7 @@ header {
 
 
 .Seccion3 {
-  height: 130vh;
+  height: 150vh;
   width: 100%;
   margin-top: 50px;
   display: flex;
@@ -450,7 +452,6 @@ footer {
 .legalify-section__content{
   display: flex;
   flex-direction: column;
-  padding-left: 10px;
   margin-top: 40px;
 }
 
@@ -488,10 +489,10 @@ gap: 1rem;
 .PoliticaDePrivacidad{
   display: flex;
   flex-direction: column;
-  background-color: #730a0a;
+  background-color: #0A4273;
   justify-content: space-around;
   align-items: center;
-  width: 34%;
+  width: 30%;
   color: white;
   border-radius: 8px;
 }
@@ -510,12 +511,14 @@ gap: 1rem;
   align-items: center;
   gap:0.5rem;
   justify-content: flex-start;
-  margin-left: 12rem;
+  
 }
 
 .ContenedorGeneralS3{
   display: flex;
-  gap: 2rem;
+  justify-content: space-around;
+  width: 100%;
+  gap: 7rem;
   margin-top: 20px;
   margin-bottom: 50px;
   height: 85vh;
@@ -525,13 +528,14 @@ gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 5rem;
   height: 80vh;
+  width: 66.5vw;
   }
 
   .itemsP3{
     display: flex;
-    width: 68vw;
+    width: 40vw;
     flex-direction: column;
     gap: 6rem;
     margin-top: 40px;
@@ -539,20 +543,29 @@ gap: 1rem;
 
   .Seccion3TC{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
+    width: 90%;
   }
 
   .itemsS3{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-left: 10px;
+  
   }
 
-  .textListSec4{
-    font-size: small;
+  .PoliticaDePrivacidadS3{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A4273;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vh;
+    color: white;
+    border-radius: 8px;
   }
+  
 /* SECCION 5*/
   .itemsP5{
     display: flex;
@@ -577,6 +590,7 @@ gap: 1rem;
     align-items: center;
     gap: 3rem;
     height: 50vh;
+    width: 79%;
     margin-top: 130px;
   }
   
@@ -587,6 +601,17 @@ gap: 1rem;
     margin-left: 10px;
   }
 
+  .PoliticaDePrivacidadS5{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A4273;
+    justify-content: space-around;
+    align-items: center;
+    width: 28vh;
+    color: white;
+    border-radius: 8px;
+  }
+
   /* SECCION 6*/
 
 .ContenedorGeneralS6{
@@ -594,6 +619,7 @@ gap: 1rem;
     gap: 2rem;
     margin-top: 45px;
     margin-bottom: 50px;
+    margin-left: 10px;
     height: 95vh;
 
 }
@@ -604,19 +630,50 @@ gap: 1rem;
     justify-content: flex-start;
     align-items: center;
     height: 50vh;
+    width: 79%;
     
   }
 
+  .PoliticaDePrivacidadS6{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A4273;
+    justify-content: space-around;
+    align-items: center;
+    width: 28vh;
+    color: white;
+    border-radius: 8px;
+  }
 
   .itemsS6{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 6rem;
     margin-left: 10px;
-    margin-top: 20rem;
+    margin-top: 26rem;
   }
 
+.PoliticaDePrivacidadS7{
+  display: flex;
+  flex-direction: column;
+  background-color: #0A4273;
+  justify-content: space-around;
+  align-items: center;
+  width: 37%;
+  color: white;
+  border-radius: 8px;
+}
 
+  .PoliticaDePrivacidadS8{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A4273;
+    justify-content: space-around;
+    align-items: center;
+    width: 28vh;
+    color: white;
+    border-radius: 8px;
+  }
 
     /* SECCION 9*/
 
@@ -633,7 +690,17 @@ gap: 1rem;
     gap: 2rem;
     margin-top: 80px;
     margin-bottom: 50px;
-    height: 83vh;
+    height: 100vh;
+  }
+  .PoliticaDePrivacidadS9{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A4273;
+    justify-content: space-around;
+    align-items: center;
+    width: 28vh;
+    color: white;
+    border-radius: 8px;
   }
 
   .itemsP9{
@@ -659,15 +726,43 @@ gap: 1rem;
   }
 
 
+  .ContenedorGeneralS10{
+    display: flex;
+    justify-content: space-around;
+    width: 98.2%;
+    gap: 15rem;
+    margin-top: 20px;
+    margin-bottom: 5rem;
+    height: 100vh;
+    } 
+.PoliticaDePrivacidadS10{
+  display: flex;
+  flex-direction: column;
+  background-color: #0A4273;
+  justify-content: space-around;
+  align-items: center;
+  width: 18%;
+  margin-left: 1rem;
+  color: white;
+  border-radius: 8px;
+}
+
+.itemsS10{
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+  margin-top: 5rem;
+  margin-left: 6rem;}
+
       /* SECCION 11*/
 
 
   .itemsS11{
     display: flex;
     flex-direction: column;
-    gap: 7rem;
+    gap: 12rem;
     margin-top: 5rem;
-    margin-left: 6rem;
+    margin-left: 7rem;
   }
 
  /* SECCION 12*/  
@@ -678,6 +773,16 @@ gap: 1rem;
     margin-top: -5rem;
     margin-left: 3rem;
   }
+
+  .ContenedorGeneralS12{
+  display: flex;
+  justify-content: space-around;
+    width: 100%;
+    gap: 7rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 120vh;
+    } 
 
   /* SECCION 13*/  
   .itemsS13{
@@ -690,13 +795,23 @@ gap: 1rem;
 
 
   /* SECCION 14*/  
+  .ContenedorGeneralS14{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 85vh;
+    } 
+  
   .ContenedorMedioS14{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
     height: 80vh;
-    width: 100%;
+    width: 67.5%;
     margin-left: 5rem;
   }
 
@@ -705,7 +820,7 @@ gap: 1rem;
   .itemsP14{
     display: flex;
     flex-direction: column;
-    gap: 12rem;
+    gap: 17rem;
     margin-top: 60px;
   }
 
@@ -719,6 +834,27 @@ gap: 1rem;
     gap: 12rem;
     margin-top: 60px;
   }
+
+  .PoliticaDePrivacidadS15{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A4273;
+    justify-content: space-around;
+    align-items: center;
+    width: 18.5%;
+    color: white;
+    border-radius: 8px;
+  }
+
+  .ContenedorGeneralS15{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 85vh;
+    } 
 
   /* SECCION 16*/
   .FilaUnoS16{
@@ -736,6 +872,39 @@ gap: 1rem;
     margin-left: 6rem;
   }
 
+  .PoliticaDePrivacidadS16{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A4273;
+    justify-content: space-around;
+    align-items: center;
+    width: 18.5%;
+    color: white;
+    border-radius: 8px;
+    margin-left: 1.5rem;
+  }
+
+  .PoliticaDePrivacidadS17{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A4273;
+    justify-content: space-around;
+    align-items: center;
+    width: 18.5%;
+    color: white;
+    border-radius: 8px;
+    
+  }
+
+  .ContenedorMedioS16{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    width: 63.5%;
+    margin-left: 5rem;
+  }
 
 
    /* MEDIAQUERYS*/

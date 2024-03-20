@@ -41,7 +41,7 @@ const TermsCS5 = () => {
                     </section>
                 </div>
 
-                <div className='PoliticaDePrivacidad'>
+                <div className='PoliticaDePrivacidadS5'>
                     <img src={Principal} alt=""  width={200}/>
                     <h2>¿CUÁL ES LA BASE JURÍDICA QUE JUSTIFICA EL 
                         TRATAMIENTO DE SUS DATOS PERSONALES?</h2>

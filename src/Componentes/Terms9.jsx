@@ -58,7 +58,7 @@ const TermsCS9 = () => {
                     </section>
                 </div>
 
-                <div className='PoliticaDePrivacidad'>
+                <div className='PoliticaDePrivacidadS9'>
                   
                     <h2>INFORMACIÓN RECOPILADA POR OTRAS PLATAFORMAS Y REDES SOCIALES </h2>
                 </div>

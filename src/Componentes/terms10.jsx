@@ -7,10 +7,10 @@ import Principal from '../assets/TerminosYcondiciones/Seccion11Derecha.png'
 const TermsCS10 = () => {
   return (
     <>
-      <div className='ContenedorGeneralS3'>
+      <div className='ContenedorGeneralS10'>
         <div className='ContenedorMedioS3'>
           <section className='Seccion3TC'>
-            <div className='itemsS11'>
+            <div className='itemsS10'>
               <img src={Item1} width={80} alt='' />
               <img src={Item2} width={80} alt='' />
               <img src={Item3} width={80} alt='' />
@@ -25,7 +25,7 @@ const TermsCS10 = () => {
           </section>
         </div>
 
-        <div className='PoliticaDePrivacidad'>
+        <div className='PoliticaDePrivacidadS10'>
           <img src={Principal} alt='' />
           <h2>CONSERVACIÓN, CONFINDENCIALIDAD Y SEGURIDAD DE LOS DATOS </h2>
         </div>

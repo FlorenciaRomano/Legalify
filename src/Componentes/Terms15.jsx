@@ -5,7 +5,7 @@ import Principal from '../assets/TerminosYcondiciones/Seccion15Derecha.png'
 const TermsCS15 = () => {
   return (
     <>
-      <div className='ContenedorGeneralS3'>
+      <div className='ContenedorGeneralS15'>
         <div className='ContenedorMedioS14'>
           <section className='Seccion3TC'>
             <div className='itemsP15'>
@@ -31,7 +31,7 @@ const TermsCS15 = () => {
           </section>
         </div>
 
-        <div className='PoliticaDePrivacidad'>
+        <div className='PoliticaDePrivacidadS15'>
           <img src={Principal} alt='' />
           <h2>CONSENTIMIENTO</h2>
         </div>

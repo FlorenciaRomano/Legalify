@@ -50,7 +50,7 @@ const TermsCS16 = () => {
                     </section>
                 </div>
 
-                <div className='PoliticaDePrivacidad'>
+                <div className='PoliticaDePrivacidadS16'>
                     <img src={Principal} alt="" />
                     <h2>CAMBIOS EN ESTA POLITICA DE PRIVACIDAD </h2>
                 </div>

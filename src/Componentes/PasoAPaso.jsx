@@ -11,14 +11,17 @@ export default function PasoAPaso() {
     <>
     {Pasos?.map((e)=>(
 
-    <Card sx={{ maxWidth: 150,
+    <Card sx={{ maxWidth: 200,
       mx: 'auto',
       boxShadow: '0px 10px 15px rgba(0, 0, 0, 0.6)',
-      background: 'linear-gradient(135deg, #f5f5f5 0%, #d3d3d3 100%)'}}>
+      background: 'linear-gradient(135deg, #f5f5f5 0%, #d3d3d3 100%)',
+      display:'flex',
+      flexDirection:'column',
+      flexWrap:'wrap'}}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="100"
+          height="150"
           image={e.img}
           alt={e.nombre}
         />

@@ -11,12 +11,13 @@ import item4 from '../assets/TerminosYcondiciones/s8i4.png'
 export default function TermsCS8() {
   const {t, i18n} = useTranslation()
   return (
-    <Box sx={{mt: 4, display: 'flex', ml: 1, justifyContent: 'center'}}>
-      <Box>
+    <Box sx={{mt: 4, display: 'flex',
+     justifyContent: 'space-evenly'}}>
+      <Box sx={{width:'77vw'}} >
         <Box>
           <img src={Logo} width={130} alt={<Trans i18nKey='terms8.item1' />} />
         </Box>
-        <Box sx={{width: '80%'}}>
+        <Box sx={{width: '90%'}}>
           <Typography variant='p'>
             <Trans i18nKey='terms8.description' />
           </Typography>
@@ -48,8 +49,8 @@ export default function TermsCS8() {
           </Box>
         </Box>
       </Box>
-      <Box className='PoliticaDePrivacidad'>
-        <img src={Principal} width={150} alt={<Trans i18nKey='terms7.blue' />} />
+      <Box className='PoliticaDePrivacidadS8'>
+        <img src={Principal} width={149} alt={<Trans i18nKey='terms7.blue' />} />
         <h2>
           <Trans i18nKey='terms8.blue' />
         </h2>

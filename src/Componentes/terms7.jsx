@@ -7,7 +7,11 @@ import icon from '../assets/TerminosYcondiciones/iIcon7.png'
 export default function TermsCS7() {
   const {t, i18n} = useTranslation()
   return (
-    <Box sx={{display: 'flex', width: '96%', ml: 4, justifyContent: 'center'}}>
+    <Box sx={{display: 'flex', 
+    width: '95.5%', 
+    ml: 4, 
+    justifyContent: 'center'
+    }}>
       <Box>
         <Box sx={{mt: 4}}>
           {t('terms7.ls1', {returnObjects: true}).map((item, index) => (
@@ -17,7 +21,7 @@ export default function TermsCS7() {
           ))}
         </Box>
       </Box>
-      <Box className='PoliticaDePrivacidad'>
+      <Box className='PoliticaDePrivacidadS7'>
         <img src={Principal} width={130} alt={<Trans i18nKey='terms7.blue' />} />
         <h2>
           <Trans i18nKey='terms7.blue' />

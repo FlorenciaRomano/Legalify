@@ -53,8 +53,8 @@ const TermsCS13 = () => {
                     </section>
                 </div>
 
-                <div className='PoliticaDePrivacidad'>
-                    <img src={Principal} alt="" />
+                <div className='PoliticaDePrivacidadS10'>
+                    <img src={Principal} alt="" width={200} />
                     <h2>DERECHOS Y OPCIONES </h2>
                 </div>
 

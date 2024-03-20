@@ -68,7 +68,7 @@ const TermsCS6 = () => {
                     </section>
                 </div>
 
-                <div className='PoliticaDePrivacidad'>
+                <div className='PoliticaDePrivacidadS6'>
                     <img src={Principal} alt="" />
                     <h2>¿QUE INFORMACION RECOPILAMOS?</h2>
                 </div>

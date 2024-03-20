@@ -5,7 +5,7 @@ import Principal from '../assets/TerminosYcondiciones/Seccion13Derecha.png'
 const TermsCS14 = () => {
   return (
     <>
-      <div className='ContenedorGeneralS3'>
+      <div className='ContenedorGeneralS14'>
         <div className='ContenedorMedioS14'>
           <section className='Seccion3TC'>
             <div className='itemsS11'>
@@ -23,7 +23,7 @@ const TermsCS14 = () => {
           </section>
         </div>
 
-        <div className='PoliticaDePrivacidad'>
+        <div className='PoliticaDePrivacidadS10'>
           <img src={Principal} alt='' />
           <h2>¿QUÉ CONSECUENCIAS TIENE NEGARNOS EL ACCESO A SUS DATOS PERSONALES? </h2>
         </div>

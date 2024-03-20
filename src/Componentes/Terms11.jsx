@@ -55,7 +55,7 @@ const TermsCS11 = () => {
                     </section>
                 </div>
 
-                <div className='PoliticaDePrivacidad'>
+                <div className='PoliticaDePrivacidadS10'>
                     <img src={Principal} alt="" />
                     <h2>CONSERVACIÓN, CONFINDENCIALIDAD Y SEGURIDAD DE LOS DATOS </h2>
                 </div>

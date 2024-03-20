@@ -2,6 +2,8 @@ import React from 'react';
 import { Card, CardContent, Typography } from '@mui/material';
 
 const Testimonial = ({ name, quote }) => (
+
+  
   <Card sx={{ width: 250,
    height: 120,
     mx: 'auto',
@@ -18,6 +20,7 @@ const Testimonial = ({ name, quote }) => (
       </Typography>
     </CardContent>
   </Card>
+  
 );
 
 export default Testimonial;
