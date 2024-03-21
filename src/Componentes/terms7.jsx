@@ -9,7 +9,7 @@ export default function TermsCS7() {
 
   const {t, i18n} = useTranslation()
   return (
-    <Box sx={{display: 'flex', width: '96%', ml: 4, justifyContent: 'center', height:'100vh'}}>
+    <Box sx={{display: 'flex', width: '96%', justifyContent: 'center', height:{md:'100vh'}}}>
       <Box>
         <Box sx={{mt: 4}}>
           {t('terms7.ls1', {returnObjects: true}).map((item, index) => (
