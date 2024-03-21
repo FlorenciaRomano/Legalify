@@ -10,12 +10,12 @@ export default function SectionsBlog() {
     {Sections?.map((e)=>(
 
 <Container  sx={{
-     display:'flex',
+     display:{xs:'inline', md:'flex'},
      flexWrap:'wrap',
      flexDirection:'column',
      marginLeft:'10px',
      width:'80%',
-     height:'270px',
+     height:{md:'270px', xs:'unset'},
      gap:'2rem',
      boxShadow: '0px 10px 15px rgba(0, 0, 0, 0.6)',
      background: 'linear-gradient(135deg, #f5f5f5 0%, #d3d3d3 100%)',}} >

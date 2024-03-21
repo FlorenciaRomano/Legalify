@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/Index.css';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import Dialog from '@material-ui/core/Dialog';
 import MuiDialogTitle from '@material-ui/core/DialogTitle';
 import MuiDialogContent from '@material-ui/core/DialogContent';
 import MuiDialogActions from '@material-ui/core/DialogActions';
@@ -15,6 +14,7 @@ import Boton3 from './boton3';
 import CheckIcon from '@mui/icons-material/Check';
 import ClearIcon from '@mui/icons-material/Clear';
 import PromocionAbogados from './PromocionAbogados';
+import { Dialog } from '@mui/material';
 
 
 const styles = (theme) => ({
@@ -78,7 +78,7 @@ const styles = (theme) => ({
         <Button variant="outlined" color="primary" startIcon={<PersonIcon/>} onClick={handleClickOpen}>
         PARTICULAR
         </Button>
-        <Dialog onClose={Particular } aria-labelledby="customized-dialog-title" open={open}>
+        <Dialog sx={{width:{xs:'100vw'} }}  onClose={Particular } aria-labelledby="customized-dialog-title" open={open}>
           <DialogTitle id="customized-dialog-title" onClose={Particular }>
           PERSONA PARICULAR
           </DialogTitle>

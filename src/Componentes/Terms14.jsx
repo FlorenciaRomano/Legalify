@@ -1,11 +1,14 @@
 import React from 'react'
 import Item1 from '../assets/TerminosYcondiciones/Seccion11Item2.png'
 import Principal from '../assets/TerminosYcondiciones/Seccion13Derecha.png'
+import {useMediaQuery} from '@mui/material'
 
 const TermsCS14 = () => {
+  const isMobile = useMediaQuery('(max-width: 768px)')
+
   return (
     <>
-      <div className='ContenedorGeneralS14'>
+      <div className='ContenedorGeneralS3'>
         <div className='ContenedorMedioS14'>
           <section className='Seccion3TC'>
             <div className='itemsS11'>
@@ -22,11 +25,12 @@ const TermsCS14 = () => {
             </div>
           </section>
         </div>
-
-        <div className='PoliticaDePrivacidadS10'>
-          <img src={Principal} alt='' />
-          <h2>¿QUÉ CONSECUENCIAS TIENE NEGARNOS EL ACCESO A SUS DATOS PERSONALES? </h2>
-        </div>
+        {isMobile ? null : (
+          <div className='PoliticaDePrivacidad'>
+            <img src={Principal} alt='' />
+            <h2>¿QUÉ CONSECUENCIAS TIENE NEGARNOS EL ACCESO A SUS DATOS PERSONALES? </h2>
+          </div>
+        )}
       </div>
     </>
   )

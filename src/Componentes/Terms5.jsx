@@ -5,7 +5,7 @@ import Principal from '../assets/TerminosYcondiciones/Seccion5Derecha.png'
 import {useMediaQuery} from '@mui/material'
 
 const TermsCS5 = () => {
-  const isMobile = useMediaQuery('(max-width: 480px)')
+  const isMobile = useMediaQuery('(max-width: 768px)')
 
   return (
     <>
@@ -28,7 +28,7 @@ const TermsCS5 = () => {
           </section>
         </div>
         {isMobile ? null : (
-          <div className='PoliticaDePrivacidadS5'>
+          <div className='PoliticaDePrivacidad'>
             <img src={Principal} alt='' width={200} />
             <h2>¿CUÁL ES LA BASE JURÍDICA QUE JUSTIFICA EL TRATAMIENTO DE SUS DATOS PERSONALES?</h2>
           </div>

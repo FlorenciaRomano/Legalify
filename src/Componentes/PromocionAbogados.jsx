@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/Index.css';
 import Promocion from '../assets/colegio1.webp';
+import { Box } from '@mui/material';
 
 function PromocionAbogados() {
     return (
-        <div className='sectionPromo'>
+        <Box sx={{width:{xs:'100vw', md:'100%'},  }} className='sectionPromo'>
             <div className='Promo'>
                 <h1>Promoción para matriculados y 
                     matriculadas del 
@@ -14,7 +15,7 @@ function PromocionAbogados() {
             <div className='imagenPromo'>
                 <img src={Promocion} alt="" srcset="" width={600}/>
             </div>
-        </div>
+        </Box>
 
     )
 }
