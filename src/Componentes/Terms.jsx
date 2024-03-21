@@ -27,7 +27,7 @@ export default function Terms() {
   return (
     <>
       <Navbar />
-      <Box sx={{width: {md: '100%', xs: '100vw'}}}>
+      <Box sx={{width: {md: '100%', xs: '100vw', display:'flex', flexDirection:'column', alignItems:'center'}}}>
         <TermCS1 />
         <TermsCS2 />
         <TermsCS3 />
