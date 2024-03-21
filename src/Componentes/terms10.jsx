@@ -3,8 +3,11 @@ import Item1 from '../assets/TerminosYcondiciones/section10item1.png'
 import Item2 from '../assets/TerminosYcondiciones/section10item2.png'
 import Item3 from '../assets/TerminosYcondiciones/section10item3.png'
 import Principal from '../assets/TerminosYcondiciones/Seccion11Derecha.png'
+import {useMediaQuery} from '@mui/material'
 
 const TermsCS10 = () => {
+  const isMobile = useMediaQuery('(max-width: 768px)')
+
   return (
     <>
       <div className='ContenedorGeneralS3'>
@@ -24,11 +27,12 @@ const TermsCS10 = () => {
             </div>
           </section>
         </div>
-
-        <div className='PoliticaDePrivacidad'>
-          <img src={Principal} alt='' />
-          <h2>CONSERVACIÓN, CONFINDENCIALIDAD Y SEGURIDAD DE LOS DATOS </h2>
-        </div>
+        {isMobile ? null : (
+          <div className='PoliticaDePrivacidad'>
+            <img src={Principal} alt='' />
+            <h2>CONSERVACIÓN, CONFINDENCIALIDAD Y SEGURIDAD DE LOS DATOS </h2>
+          </div>
+        )}
       </div>
     </>
   )
