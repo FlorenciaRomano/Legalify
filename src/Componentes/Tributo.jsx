@@ -6,7 +6,7 @@ import {Box} from '@mui/material'
 
 function Section2() {
   return (
-    <Box sx={{display: {xs: 'inline'}, height:{xs: 'unset'}}} className='sectionTributo'>
+    <Box sx={{display:'flex', height:{xs: 'unset'}}} className='sectionTributo'>
       <div className='imagenTributo'>
         <img src={TributoImg} alt='' srcset='' width={150} />
       </div>
