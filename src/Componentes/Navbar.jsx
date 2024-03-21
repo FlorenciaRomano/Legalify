@@ -48,7 +48,7 @@ const Navbar = () => {
   ]
 
   return (
-    <Toolbar sx={{width: '100vw'}}>
+    <Toolbar sx={{width:{ xs:'100vw', md:'100%'}}}>
       <div className='logo'>
         <IconButton edge='start' color='inherit'>
           <img src={Logo} alt='' srcset='' />
