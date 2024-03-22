@@ -169,14 +169,24 @@ header {
 }
 
 /*SECCION DOS*/
+@media screen and (max-width: 768px){
+  .section2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 
-
+.sectionDos{
+  background-color:#89aeff81 ;
+  width: 100%;
+}
 .section2 {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   padding: 10%;
+  width: 100%;
   gap: 10rem;
   background-color: #89aeff81;
 }

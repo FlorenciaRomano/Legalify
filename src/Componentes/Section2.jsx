@@ -1,13 +1,14 @@
 import React from 'react'
 import '../styles/Index.css'
 import Escena1 from '../assets/scenes04.svg'
+import {Button} from 'bootstrap'
 import { Box } from '@mui/material'
 
 function Section2() {
   return (
-   
+    
       
-      <Box sx={{display:{xs:'flex', flexWrap:'wrap', md:'flex'}}} className='section2'>
+      <Box sx={{display:{ md:'flex'}}} className='section2'>
       <div className='imagenDos'>
         <img src={Escena1} alt='' srcset='' width={300} />
       </div>
@@ -19,6 +20,7 @@ function Section2() {
         <p>Legalify está al alcance de todos, sin barreras económicas, geográficas y sociales.</p>
         </div>
       </Box>
+      
     
   )
 }
