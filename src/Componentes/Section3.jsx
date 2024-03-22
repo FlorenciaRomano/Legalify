@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Index.css'
-import Escena1 from '../assets/scenes04.svg'
+
 import PasoAPaso from './PasoAPaso'
 import {useMediaQuery} from '@mui/material'
 import StepCarousel from './stepbystepCarousel'

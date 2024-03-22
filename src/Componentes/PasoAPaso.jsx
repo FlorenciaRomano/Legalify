@@ -13,8 +13,8 @@ export default function PasoAPaso() {
 
     <Card sx={{ maxWidth: 150,
       mx: 'auto',
-      boxShadow: '0px 10px 15px rgba(0, 0, 0, 0.6)',
-      background: 'linear-gradient(135deg, #f5f5f5 0%, #d3d3d3 100%)'}}>
+      boxShadow: '0px 5px 7px ',
+      background: 'linear-gradient(100deg, white 0%, white 80%)'}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -31,8 +31,7 @@ export default function PasoAPaso() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-      </CardActions>
+     
     </Card>
     ))}
     </>
