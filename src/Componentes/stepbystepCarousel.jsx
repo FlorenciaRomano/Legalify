@@ -6,13 +6,13 @@ import {Box} from '@mui/material'
 
 export default function StepCarousel() {
   return (
-    <Box width={'90vw'}>
+    <Box width={'50vw'}>
       <Carousel>
         {Pasos.map((step) => (
           <div>
             <img src={step.img} />
-            <p className='legend'>{step.nombre}</p>
-            <p >{step.descripcion}</p>
+            <p className='legend'>{step.descripcion}</p>
+            
           </div>
         ))}
       </Carousel>

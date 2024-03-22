@@ -278,6 +278,15 @@ header {
 }
 
 /* PASO A PASO*/
+¡.carousel .slide .legend{
+  width: 94% !important;
+  font-size: 15px !important;
+}
+
+.carousel .slide img{
+  width: 70% !important;
+}
+
 .MuiCardContent-root {
   display: flex;
   flex-direction: column;

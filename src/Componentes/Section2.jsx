@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/Index.css'
 import Escena1 from '../assets/scenes04.svg'
-import {Button} from 'bootstrap'
 import { Box } from '@mui/material'
 
 function Section2() {
