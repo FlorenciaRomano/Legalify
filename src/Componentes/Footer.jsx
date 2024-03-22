@@ -17,7 +17,7 @@ const Footer = () => {
         py: 4,
         px: isMobile ? 2 : 4,
         textAlign: 'center',
-        marginTop:10
+      
       }}
     >
       <Typography variant="body2" color="white">

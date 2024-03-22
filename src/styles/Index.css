@@ -129,18 +129,20 @@ header {
   align-items: center;
   width: 100%;
   margin-top: 5%;
+  padding: 5%;
 }
 
 .section1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
   height: 30vh;
+  gap: 1rem;
 }
 
 .imagenUno {
   width: 300px;
+  padding: 10%;
 }
 
 .imagenUno > img {
@@ -167,31 +169,18 @@ header {
 }
 
 /*SECCION DOS*/
-.sectionDos {
-  margin-top: 0%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 5%;
-  background-color: #89aeff81;
-}
+
 
 .section2 {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  height: 30vh;
-  margin-left: 2rem;
-  width: 35rem;
+  align-content: center;
+  padding: 10%;
+  gap: 10rem;
+  background-color: #89aeff81;
 }
 
-.imagenDos {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-}
 
 /* SECCION TRES*/
 
@@ -213,6 +202,7 @@ header {
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
+  padding: 10%;
 }
 
 /* SECCION cuatro*/
@@ -237,7 +227,9 @@ header {
   width: 50%;
   display: flex;
   margin-top: 5rem;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 2rem;
+ 
 }
 
 .MuiTypography-rootPrincipal {
@@ -327,21 +319,32 @@ header {
 }
 
 /* TRIBUTO*/
+
+@media screen and (max-width: 768px){
+  .sectionTributo2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .sectionTributo {
   margin-top: 0%;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 40vh;
+  height: 10vh;
+ 
 }
 
 .sectionTributo2 {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 30vh;
-  margin-left: 20px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 27%;
+ 
 }
 
 .imagenTributo {
@@ -355,11 +358,21 @@ header {
 .testimonials {
   display: flex;
   width: 100%;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
+  padding: 10%;
+  gap: 2rem;
+  background-color: #89aeff81;
 }
+.cardsTestimonials{
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
 
 /* FOOTTER*/
 
@@ -370,7 +383,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   height: 11.6vh;
-  margin-top: 40px;
+  
 }
 
 .iconos {
@@ -401,6 +414,7 @@ footer {
   gap: 2rem;
   width: 100%;
   margin-top: 50px;
+  padding: 5%;
 }
 
 /* TERMINOS Y CONDICIONES*/

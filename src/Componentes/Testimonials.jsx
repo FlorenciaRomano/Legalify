@@ -17,11 +17,20 @@ const testimonialsData = [
 ];
 
 const Testimonials = () => (
+  
+  <>
+ 
   <div className="testimonials">
+    <div className='tituloTestimonials'>
+    <h2>Testimonios</h2>
+    </div>
+    <div className='cardsTestimonials'>
     {testimonialsData.map(({ name, quote }, index) => (
       <Testimonial key={index} name={name} quote={quote} />
     ))}
   </div>
+  </div>
+  </>
 );
 
 export default Testimonials;

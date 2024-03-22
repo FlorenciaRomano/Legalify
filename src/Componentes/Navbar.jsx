@@ -51,7 +51,7 @@ const Navbar = () => {
   return (
     <Toolbar sx={{width: {xs: '100vw', md: '100%'}}}>
       <div className='logo'>
-        <IconButton edge='start' color='inherit'>
+        <IconButton edge='start' sx={{border:'none'}}>
           <img src={Logo} alt='' srcset='' />
         </IconButton>
       </div>
@@ -62,12 +62,18 @@ const Navbar = () => {
           <Select>
             <MenuItem>
               {/* Main menu */}
-              <Typography variant='h5' sx={{display: 'flex', color: 'black', flexDirection: 'column', alignItems: 'center'}} className={classes.title}>
+              <Typography variant='h5' sx={{display: 'flex',
+               color: 'black',
+                flexDirection: 'column',
+                fontSize:'20px',
+                 alignItems: 'center'}} 
+                 className={classes.title}>
                 <Link to='/'>Home &nbsp;</Link>
                 {blog
                   ? menuItems.map((item, index) => (
-                      <Button key={index} color='inherit'>
+                      <Button  key={index} color='inherit'>
                         {item.label}
+                        
                       </Button>
                     ))
                   : null}
@@ -80,7 +86,7 @@ const Navbar = () => {
 
                   <Link to='/blog'>Blog</Link>
                   <Select labelId='language-select-label' defaultValue='es' onChange={handleLanguageClick}>
-                    <MenuItem className='flagsNames widthMenu' value='en'>
+                    <MenuItem className='flagsNames widthMenu' value='en' sx={{border:'none'}}>
                       <img src={ENFlag} alt='English' />
                     </MenuItem>
                     <MenuItem className='flagsNames widthMenu' value='es'>
