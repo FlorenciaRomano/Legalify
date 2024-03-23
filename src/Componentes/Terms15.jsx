@@ -8,8 +8,8 @@ const TermsCS15 = () => {
 
   return (
     <>
-      <div className='ContenedorGeneralS3'>
-        <div className='ContenedorMedioS14'>
+      <div className='ContenedorGeneralS15'>
+        <div className='ContenedorMedioS15'>
           <section className='Seccion3TC'>
             <div className='itemsP15'>
               <img src={Item} alt='' width={200} />
@@ -26,7 +26,7 @@ const TermsCS15 = () => {
           </section>
         </div>
         {isMobile ? null : (
-          <div className='PoliticaDePrivacidad'>
+          <div className='PoliticaDePrivacidad15'>
             <img src={Principal} alt='' />
             <h2>CONSENTIMIENTO</h2>
           </div>

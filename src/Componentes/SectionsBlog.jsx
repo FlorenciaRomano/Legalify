@@ -14,9 +14,9 @@ export default function SectionsBlog() {
      flexWrap:'wrap',
      flexDirection:'column',
      marginLeft:'10px',
-     width:'80%',
+     width:'100%',
      height:{md:'270px', xs:'unset'},
-     gap:'2rem',
+     gap:'1rem',
      boxShadow: '0px 10px 15px rgba(0, 0, 0, 0.6)',
      background: 'linear-gradient(135deg, #f5f5f5 0%, #d3d3d3 100%)',}} >
    

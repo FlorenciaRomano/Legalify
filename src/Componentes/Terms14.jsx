@@ -8,9 +8,9 @@ const TermsCS14 = () => {
 
   return (
     <>
-      <div className='ContenedorGeneralS3'>
+      <div className='ContenedorGeneralS14'>
         <div className='ContenedorMedioS14'>
-          <section className='Seccion3TC'>
+          <section className='Seccion14TC'>
             <div className='itemsS11'>
               <img src={Item1} width={80} alt='' />
               <img src={Item1} width={80} alt='' />
@@ -26,7 +26,7 @@ const TermsCS14 = () => {
           </section>
         </div>
         {isMobile ? null : (
-          <div className='PoliticaDePrivacidad'>
+          <div className='PoliticaDePrivacidad14'>
             <img src={Principal} alt='' />
             <h2>¿QUÉ CONSECUENCIAS TIENE NEGARNOS EL ACCESO A SUS DATOS PERSONALES? </h2>
           </div>

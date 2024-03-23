@@ -24,8 +24,20 @@ function PromocionAbogados() {
             </p>
             <p>CON EL ABONO TENDRÁS ACCESO A LA PLATAFORMA 
                 OFRECIENDO TUS SERVICIOS LEGALES:
-                <li>
-                    <ul>
+                
+                <ul>
+                 <li>
+                 En una jurisdicción (CABA)
+                 </li>
+                 <li>
+                 Con una especialidad
+                 </li>
+                 <li>
+                 Acceso a la agenda de reuniones Legalify y reuniones de emergencia
+                 </li>
+                </ul>
+               
+                    {/* <ul>
                         En una jurisdicción (CABA)
                     </ul>
                     <ul>
@@ -33,8 +45,7 @@ function PromocionAbogados() {
                     </ul>
                     <ul>
                         Acceso a la agenda de reuniones Legalify y reuniones de emergencia
-                    </ul>
-                </li>
+                    </ul> */}
             </p>
             </div>
            

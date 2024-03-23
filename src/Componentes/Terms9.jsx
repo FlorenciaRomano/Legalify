@@ -36,7 +36,7 @@ const TermsCS9 = () => {
           </section>
         </div>
         {isMobile ? null : (
-          <div className='PoliticaDePrivacidad'>
+          <div className='PoliticaDePrivacidad9'>
             <h2>INFORMACIÓN RECOPILADA POR OTRAS PLATAFORMAS Y REDES SOCIALES </h2>
           </div>
         )}

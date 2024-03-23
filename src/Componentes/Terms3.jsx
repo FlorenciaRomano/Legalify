@@ -19,9 +19,9 @@ const TermsCS3 = () => {
           </div>
           <section className='Seccion3TC'>
             <div className='itemsS3'>
-              <img src={Item1} alt='' />
-              <img src={Item2} alt='' />
-              <img src={Item3} alt='' />
+              <img src={Item1} alt='' width={100} />
+              <img src={Item2} alt='' width={100} />
+              <img src={Item3} alt='' width={100} />
             </div>
             <div className='itemsP3'>
               <p>Al momento del registro en la plataforma, se recoje información de: Clientes y asesores jurídicos.</p>
@@ -40,8 +40,8 @@ const TermsCS3 = () => {
           </section>
         </div>
         {isMobile ? null : (
-          <div className='PoliticaDePrivacidad'>
-            <img src={Principal} alt='' />
+          <div className='PoliticaDePrivacidad3'>
+            <img src={Principal} alt='' width={100} />
             <h2>¿QUE INFORMACION RECOPILAMOS?</h2>
           </div>
         )}

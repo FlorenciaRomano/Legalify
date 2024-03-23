@@ -41,7 +41,7 @@ const TermsCS6 = () => {
         </div>
 
         {isMobile ? null : (
-          <div className='PoliticaDePrivacidad'>
+          <div className='PoliticaDePrivacidad6' >
             <img src={Principal} alt='' />
             <h2>¿QUE INFORMACION RECOPILAMOS?</h2>
           </div>

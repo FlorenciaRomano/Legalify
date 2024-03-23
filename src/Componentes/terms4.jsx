@@ -10,7 +10,10 @@ export default function TermsCS4() {
   const isMobile = useMediaQuery('(max-width: 768px)')
 
   return (
-    <Box sx={{display: 'flex', width: '96%', ml: 4, justifyContent: 'center'}}>
+    <Box sx={{display: 'flex',
+     ml: 4, 
+     justifyContent: 'center',
+     gap:'12rem'}}>
       <Box>
         {isMobile ? (
           <>
@@ -122,7 +125,7 @@ export default function TermsCS4() {
         )}
       </Box>
       {isMobile ? null : (
-        <Box className='PoliticaDePrivacidad'>
+        <Box className='PoliticaDePrivacidad4'>
           <img src={Principal} alt='' width={150} />
           <Typography variant='h2' />
           <h2>

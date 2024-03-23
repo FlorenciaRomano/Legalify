@@ -10,8 +10,8 @@ const TermsCS16 = () => {
 
   return (
     <>
-      <div className='ContenedorGeneralS3'>
-        <div className='ContenedorMedioS3'>
+      <div className='ContenedorGeneralS16'>
+        <div className='ContenedorMedioS16'>
           <section className='Seccion3TC'>
             <div className='itemsS16'>
               <img src={Item2} alt='' />
@@ -30,7 +30,7 @@ const TermsCS16 = () => {
           </section>
         </div>
         {isMobile ? null : (
-          <div className='PoliticaDePrivacidad'>
+          <div className='PoliticaDePrivacidad16'>
             <img src={Principal} alt='' />
             <h2>CAMBIOS EN ESTA POLITICA DE PRIVACIDAD </h2>
           </div>

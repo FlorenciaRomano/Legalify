@@ -10,8 +10,8 @@ const TermsCS12 = () => {
 
   return (
     <>
-      <div className='ContenedorGeneralS3'>
-        <div className='ContenedorMedioS3'>
+      <div className='ContenedorGeneralS12'>
+        <div className='ContenedorMedioS12'>
           <section className='Seccion3TC'>
             <div className='itemsS12'>
               <img src={Item1} alt='' />

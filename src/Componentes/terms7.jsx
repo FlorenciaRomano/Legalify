@@ -9,7 +9,11 @@ export default function TermsCS7() {
 
   const {t} = useTranslation()
   return (
-    <Box sx={{display: 'flex', width: '96%', justifyContent: 'center', height:{md:'100vh'}}}>
+    <Box sx={{display: 'flex',
+      justifyContent: 'center',
+      width:'83vw',
+       height:{md:'100vh'}}}>
+        
       <Box>
         <Box sx={{mt: 4}}>
           {t('terms7.ls1', {returnObjects: true}).map((item, index) => (
@@ -21,7 +25,7 @@ export default function TermsCS7() {
       </Box>
       {isMobile ? null : (
         <Box className='PoliticaDePrivacidad'>
-          <img src={Principal} width={130} alt={<Trans i18nKey='terms7.blue' />} />
+          <img src={Principal} width={100} alt={<Trans i18nKey='terms7.blue' />} />
           <h2>
             <Trans i18nKey='terms7.blue' />
           </h2>

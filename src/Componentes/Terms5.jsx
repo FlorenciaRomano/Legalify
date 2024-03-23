@@ -28,8 +28,8 @@ const TermsCS5 = () => {
           </section>
         </div>
         {isMobile ? null : (
-          <div className='PoliticaDePrivacidad'>
-            <img src={Principal} alt='' width={200} />
+          <div className='PoliticaDePrivacidad5'>
+            <img src={Principal} alt='' width={100} />
             <h2>¿CUÁL ES LA BASE JURÍDICA QUE JUSTIFICA EL TRATAMIENTO DE SUS DATOS PERSONALES?</h2>
           </div>
         )}

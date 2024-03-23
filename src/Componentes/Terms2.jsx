@@ -40,7 +40,7 @@ const TermsCS2 = () => {
           </div>
         </Box>
         {isMobile ? null : (
-          <div className='PoliticaDePrivacidad'>
+          <div className='PoliticaDePrivacidad2'>
             <img src={PoliticaDePrivacidad} alt='' />
             <h2>POLITICA DE PRIVACIDAD</h2>
           </div>
