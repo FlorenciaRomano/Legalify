@@ -65,7 +65,7 @@ const Navbar = () => {
               <Typography variant='h5' sx={{display: 'flex',
                color: 'black',
                 flexDirection: 'column',
-                fontSize:'20px',
+                fontSize:'30px',
                  alignItems: 'center'}} 
                  className={classes.title}>
                 <Link to='/'>Home &nbsp;</Link>
@@ -79,13 +79,16 @@ const Navbar = () => {
                   : null}
                 <Box sx={{display: 'flex', flexDirection: 'column'}} className='grupoBotones'>
                   {/* Login and Register buttons */}
-                  <Button color='inherit'>Iniciar sesión</Button>
+                  <Button color='inherit' sx={{
+                    background:'white'
+                  }}>
+                    Iniciar sesión</Button>
                   <Button color='inherit'>Registrarse</Button>
 
                   {/* Language menu */}
 
                   <Link to='/blog'>Blog</Link>
-                  <Select labelId='language-select-label' defaultValue='es' onChange={handleLanguageClick}>
+                  <Select labelId='language-select-label' defaultValue='es' onChange={handleLanguageClick} sx={{border:'none'}}>
                     <MenuItem className='flagsNames widthMenu' value='en' sx={{border:'none'}}>
                       <img src={ENFlag} alt='English' />
                     </MenuItem>
@@ -106,7 +109,7 @@ const Navbar = () => {
               <Link to='/'>Home &nbsp;| &nbsp;</Link>
               {blog
                 ? menuItems.map((item, index) => (
-                    <Button key={index} color='inherit'>
+                    <Button key={index} color='inherit' >
                       {item.label}
                     </Button>
                   ))
@@ -117,8 +120,9 @@ const Navbar = () => {
 
           <div className='grupoBotones'>
             {/* Login and Register buttons */}
-            <Button color='inherit'>Iniciar sesión</Button>
-            <Button color='inherit'>Registrarse</Button>
+            <Button color='inherit' sx={{background:'#05325a', color:'white'}}>Iniciar sesión</Button>
+            &nbsp;  &nbsp;
+            <Button color='inherit' sx={{background:'white', color:'black'}}>Registrarse</Button>
 
             {/* Language menu */}
 
