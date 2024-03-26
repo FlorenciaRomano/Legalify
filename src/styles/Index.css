@@ -523,6 +523,7 @@ footer {
   margin-top: 20px;
   margin-bottom: 50px;
   padding: 5%;
+  max-height: 100vh;
   
 }
 
@@ -532,6 +533,8 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .PoliticaDePrivacidad {
@@ -540,7 +543,7 @@ footer {
   background-color: #0a4273;
   justify-content: space-around;
   align-items: center;
-  width: 34%;
+  width: 30vw;
   color: white;
   border-radius: 8px;
 }
@@ -590,16 +593,7 @@ footer {
   border-radius: 8px;
 }
 
-.PoliticaDePrivacidad5{
-  display: flex;
-  flex-direction: column;
-  background-color: #0a4273;
-  justify-content: space-around;
-  align-items: center;
-  width: 10vw;
-  color: white;
-  border-radius: 8px;
-}
+
 .itemsP {
   display: flex;
   flex-direction: column;
@@ -678,42 +672,54 @@ footer {
     border-radius: 8px;
   }
 
+  .ContenedorGeneralS16{
+    width: 100%;
+  }
+  .ContenedorMedioS16{
+    width: 70%;
+  }
 }
 
-@media screen and (max-width: 2550px){
+@media screen and (max-width: 2560px){
+
+  .ContenedorMedioS6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 36vw !important;
+  }
+
   .PoliticaDePrivacidad6 {
     display: flex !important;
     flex-direction: column;
     background-color: #0a4273 !important;
     justify-content: space-around;
     align-items: center;
-    width: 17vw;
+    width: 8.5vw;
     color: white;
     border-radius: 8px;
+    max-width: 1200px;
   }
 .css-24oncw{
   height: 60vh !important;
 }
-.ContenedorGeneralS5 {
-  display: flex;
-  gap: 7rem;
-  margin-top: 45px;
-  margin-bottom: 50px;
-  height: 70vh;
-  padding-right:22% !important;
+
 }
 
 
-}
+
 
 .ContenedorGeneralS3 {
   display: flex;
-  gap: 1rem;
-  min-height: 70vh;
+  gap: 10rem;
   margin-top: 20px;
   margin-bottom: 50px;
-  padding: 3%;
-  width: 80vw;
+  padding: 5%;
+  height: 50vh;
+  align-items: center;
+  flex-wrap: nowrap;
+  
 }
 .ContenedorMedioS3 {
   display: flex;
@@ -722,8 +728,21 @@ footer {
   justify-content: center;
   align-items: center;
   width: 48vw;
+
 }
 
+.PoliticaDePrivacidad3{
+  display: flex;
+  flex-direction: column;
+  background-color: #0a4273;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin-left: 2rem;
+  color: white;
+  border-radius: 8px;
+  height: 100%;
+}
 .itemsP3 {
   display: flex;
   width: 47vw;
@@ -759,10 +778,12 @@ footer {
 
 .ContenedorGeneralS5 {
   display: flex;
-  gap: 7rem;
-  margin-top: 45px;
+  gap: 20rem;
+  margin-top: 20px;
   margin-bottom: 50px;
-  height: 70vh;
+  padding: 5%;
+  min-height: 60vh;
+  align-items: center;
 }
 
 .ContenedorMedioS5 {
@@ -776,6 +797,17 @@ footer {
   margin-top: 130px;
 }
 
+.PoliticaDePrivacidadS5 {
+  display: flex;
+  flex-direction: column;
+  background-color: #0a4273;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  margin-left: 2rem;
+  color: white;
+  border-radius: 8px;
+}
 .itemsS5 {
   display: flex;
   flex-direction: column;
@@ -787,10 +819,11 @@ footer {
 
 .ContenedorGeneralS6 {
   display: flex;
-  gap: 2rem;
-  margin-top: 45px;
+  margin-top: 20px;
   margin-bottom: 50px;
-  width: 50vw;
+  padding: 5%;
+  min-height: 60vh;
+  align-items: center;
 }
 
 .ContenedorMedioS6 {
@@ -801,12 +834,37 @@ footer {
   width: 45vw;
 }
 
+.PoliticaDePrivacidadS6 {
+  display: flex;
+  flex-direction: column;
+  background-color: #0a4273;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  width: 80%;
+  margin-left: 2rem;
+  color: white;
+  border-radius: 8px;
+}
+
 .itemsS6 {
   display: flex;
   flex-direction: column;
   gap: 4rem;
   margin-left: 10px;
   margin-top: 20rem;
+}
+
+
+.PoliticaDePrivacidad7{
+  display: flex;
+  flex-direction: column;
+  background-color: #0a4273;
+  justify-content: space-around;
+  align-items: center;
+  width: 16vw;
+  color: white;
+  border-radius: 8px;
 }
 
 /* SECCION 9*/
@@ -823,7 +881,15 @@ footer {
   gap: 2rem;
   margin-top: 80px;
   margin-bottom: 50px;
-  width: 80%;
+  width: 78%;
+}
+
+.ContenedorMedioS9 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 72% !important;
 }
 .PoliticaDePrivacidad9{
   display: flex;
@@ -848,6 +914,25 @@ footer {
   margin-left: 10px;
   margin-top: 20rem;
   margin-left: 3rem;
+}
+.img9 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.PoliticaDePrivacidad9{
+  display: flex;
+  flex-direction: column;
+  background-color: #0a4273;
+  justify-content: space-around;
+  align-items: center;
+  width: 86%;
+  margin-left: 2rem;
+  color: white;
+  border-radius: 8px;
 }
 
 .Seccion9TC {
@@ -876,6 +961,22 @@ footer {
   align-items: center;
   
 }
+
+.Seccion10TC {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.itemsP10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 5rem;
+}
+
 .PoliticaDePrivacidad10{
   display: flex;
   flex-direction: column;
@@ -919,12 +1020,11 @@ footer {
 /* SECCION 12*/
 .ContenedorGeneralS12{
   display: flex;
-  gap: 1rem;
-  min-height: 70vh;
+  gap: 15rem;
   margin-top: 20px;
   margin-bottom: 50px;
-  padding: 3%;
-  width: 80vw;
+  padding: 5%;
+  max-height: 100vh;
 
 }
 
@@ -949,12 +1049,11 @@ footer {
 /* SECCION 13*/
 .ContenedorGeneralS13{
   display: flex;
-  gap: 1rem;
-  min-height: 70vh;
+  gap: 10rem;
   margin-top: 20px;
   margin-bottom: 50px;
-  padding: 3%;
-  width: 80vw;
+  padding: 5%;
+  max-height: 100vh;
 }
 
 .ContenedorMedioS13{
@@ -974,26 +1073,34 @@ footer {
   margin-left: 4rem;
 }
 
+.PoliticaDePrivacidadS13{
+  display: flex;
+  flex-direction: column;
+  background-color: #0a4273;
+  justify-content: space-around;
+  align-items: center;
+  width: 30vw;
+  color: white;
+  border-radius: 8px;
+}
 /* SECCION 14*/
 
 .ContenedorGeneralS14{
   display: flex;
-  gap: 1rem;
-  min-height: 70vh;
   margin-top: 20px;
   margin-bottom: 50px;
-  padding: 3%;
-  width: 80vw;
+  padding: 5%;
+  max-height: 100vh;
 }
 
 .ContenedorMedioS14 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  height: 80vh;
-  width: 100%;
-  margin-left: 5rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 .Seccion14TC{
   display: flex;
@@ -1008,7 +1115,8 @@ footer {
   background-color: #0a4273;
   justify-content: space-around;
   align-items: center;
-  width: 20vw;
+  width: 62%;
+  margin-left: 2rem;
   color: white;
   border-radius: 8px;
  }
@@ -1024,22 +1132,21 @@ footer {
 
 .ContenedorGeneralS15{
   display: flex;
-  gap: 1rem;
-  min-height: 70vh;
+  gap: 22rem;
   margin-top: 20px;
   margin-bottom: 50px;
-  padding: 3%;
-  width: 80vw;
+  padding: 5%;
+  max-height: 100vh;
 }
 
 .ContenedorMedioS15 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  height: 80vh;
-  width: 60%;
-  margin-left: 5rem;
+  gap: 20rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .PoliticaDePrivacidad15{
@@ -1064,12 +1171,27 @@ footer {
 /* SECCION 16*/
 .ContenedorGeneralS16{
   display: flex;
-  gap: 13rem;
-  min-height: 70vh;
   margin-top: 20px;
   margin-bottom: 50px;
-  padding: 3%;
+  padding: 5%;
+  max-height: 100vh;
  
+}
+
+.legalify-section__content16 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+
+.itemsP16 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 5rem;
 }
 
 .ContenedorMedioS16{
@@ -1086,8 +1208,15 @@ footer {
   background-color: #0a4273;
   justify-content: space-around;
   align-items: center;
+  width: 55%;
+  margin-left: 2rem;
   color: white;
   border-radius: 8px;
+}
+
+.Seccion16TC{
+  display: flex;
+  gap: 2rem;
 }
 .FilaUnoS16 {
   display: flex;

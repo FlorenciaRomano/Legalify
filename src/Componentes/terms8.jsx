@@ -9,7 +9,7 @@ import item3 from '../assets/TerminosYcondiciones/s8i3.png'
 import item4 from '../assets/TerminosYcondiciones/s8i4.png'
 
 export default function TermsCS8() {
-  const isMobile = useMediaQuery('(max-width: 768px)')
+  const isMobile = useMediaQuery('(max-width: 1200px)')
 
   return (
     <Box sx={{mt: 4, display: 'flex', ml: 1, justifyContent: 'center', width:{sm:'80vw',md:'80%'}}}>

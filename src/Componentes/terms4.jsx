@@ -7,7 +7,7 @@ import contentImg from '../assets/TerminosYcondiciones/section4.png'
 
 export default function TermsCS4() {
   const {t, i18n} = useTranslation()
-  const isMobile = useMediaQuery('(max-width: 768px)')
+  const isMobile = useMediaQuery('(max-width: 1200px)')
 
   return (
     <Box sx={{display: 'flex',

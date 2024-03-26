@@ -1,30 +1,40 @@
 import React from 'react'
-import Item from '../assets/TerminosYcondiciones/Seccion17Derecha.png'
-import {useMediaQuery} from '@mui/material'
+
+import img1 from '../assets/TerminosYcondiciones/Seccion17Derecha.png'
+
+import { Box, Container, useMediaQuery } from '@mui/material'
 
 const TermsCS17 = () => {
-  const isMobile = useMediaQuery('(max-width: 768px)')
+  const isMobile = useMediaQuery('(max-width: 1134px)')
 
   return (
-    <>
-      <div className='ContenedorGeneralS3'>
-        <div className='ContenedorMedioS14'>
-          <section className='Seccion3TC'>
-            <div className='itemsP15'>
-              <img src={Item} alt='' width={250} />
-              <span>
-                <p>Si tiene alguna pregunta sobre esta Política, escríbanos a la siguiente dirección de correo electrónico: info@legalify.app </p>
-              </span>
+    <Container container>
+      <div className='ContenedorGeneralS15'>
+        <Box>
+          
+          <div className='ContenedorMedioS15'>
+            <div className='img1'>
+              <img src={img1} alt='' width={200} />
             </div>
-          </section>
-        </div>
+
+            <section className='Seccion1TC'>
+              <div className='itemsP'>
+            
+                  <p>Si tiene alguna pregunta sobre esta Política, escríbanos a la siguiente dirección de correo electrónico: info@legalify.app </p>
+                  
+               
+              </div>
+            </section>
+          </div>
+        </Box>
         {isMobile ? null : (
-          <div className='PoliticaDePrivacidad'>
+          <div className='PoliticaDePrivacidad2'>
+      
             <h2>CONTACTO</h2>
           </div>
         )}
       </div>
-    </>
+    </Container>
   )
 }
 

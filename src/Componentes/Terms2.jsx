@@ -7,7 +7,7 @@ import PoliticaDePrivacidad from '../assets/TerminosYcondiciones/PoliticaDePriva
 import { Box, Container, useMediaQuery } from '@mui/material'
 
 const TermsCS2 = () => {
-  const isMobile = useMediaQuery('(max-width: 768px)')
+  const isMobile = useMediaQuery('(max-width: 1134px)')
 
   return (
     <Container container>
@@ -41,7 +41,7 @@ const TermsCS2 = () => {
         </Box>
         {isMobile ? null : (
           <div className='PoliticaDePrivacidad2'>
-            <img src={PoliticaDePrivacidad} alt='' />
+            <img src={PoliticaDePrivacidad} alt='' width={200} />
             <h2>POLITICA DE PRIVACIDAD</h2>
           </div>
         )}
