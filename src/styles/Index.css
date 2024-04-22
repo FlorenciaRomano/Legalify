@@ -128,8 +128,9 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 5%;
   padding: 5%;
+  
+  
 }
 
 .section1 {
@@ -211,7 +212,7 @@ header {
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
-  padding: 20%;
+  padding: 5%;
 }
 
 /* SECCION cuatro*/
@@ -369,7 +370,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 5rem;
-  padding: 27%;
+  padding: 10%;
  
 }
 

@@ -46,15 +46,7 @@ const Footer = () => {
           underline="hover"
           color="white"
         >
-          OWŁO
-        </Link>
-        <Link
-          href="https://www.facebook.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          underline="hover"
-          color="white"
-        >
+        
           Facebook
         </Link>
         <Link

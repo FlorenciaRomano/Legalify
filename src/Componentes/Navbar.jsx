@@ -1,144 +1,175 @@
-import React, {useEffect, useState} from 'react'
-import {AppBar, Toolbar, Typography, Button, IconButton, MenuItem, Select, useMediaQuery, Box, InputLabel, FormControl, Avatar} from '@mui/material'
+import * as React from 'react';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import Menu from '@mui/material/Menu';
+import MenuIcon from '@mui/icons-material/Menu';
+import Container from '@mui/material/Container';
+import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
+import MenuItem from '@mui/material/MenuItem';
 import Logo from '../assets/logo_legalify_azul_transparente.png'
-import LanguageIcon from '@mui/icons-material/Language'
-import ENFlag from '../assets/Flags/ENFlag.webp'
-import ESFlag from '../assets/Flags/ESFlag.webp'
-import {Link, useLocation} from 'react-router-dom'
-import MenuIcon from '@mui/icons-material/Menu'
-import {useTranslation} from 'react-i18next'
+import LanguageIcon from '@mui/icons-material/Language';
+import Español from '../assets/Flags/ESFlag.webp';
+import Ingles from '../assets/Flags/ENFlag.webp';
+import Italiano from '../assets/Flags/ITFlag.webp';
 
-const useStyles = (theme) => ({
-  title: {
-    flexGrow: 1,
-    display: 'flex',
-    justifyContent: 'center',
-  },
-})
+const pages = ['Inicio', 'Servicios', 'Nosotros', 'Contacto', 'Blog'];
+const settings = ['Español', 'English', 'Italiano'];
 
-const Navbar = () => {
-  const {t, i18n} = useTranslation()
-  const classes = useStyles()
-  const [blog, setBlog] = useState(true)
-  // States for the language menu
-  const [languageMenu, setLanguageMenu] = React.useState(null)
-  const location = useLocation()
-  const isMobile = useMediaQuery('(max-width: 768px)')
-  useEffect(() => {
-    if (location.pathname === '/blog' || location.pathname === '/terms') {
-      setBlog(false)
-    } else {
-      setBlog(true)
-    }
-  }, [location.pathname])
+function ResponsiveAppBar() {
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
-  const handleLanguageClick = (event) => {
-    setLanguageMenu(event.target.value)
-    i18n.changeLanguage(event.target.value)
-  }
+  const handleOpenNavMenu = (event) => {
+    setAnchorElNav(event.currentTarget);
+  };
+  const handleOpenUserMenu = (event) => {
+    setAnchorElUser(event.currentTarget);
+  };
 
-  const handleLanguageClose = () => {
-    setLanguageMenu(null)
-  }
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
 
-  // List of menu items
-  const menuItems = [
-    {label: 'Servicios', path: '/services'},
-    {label: 'Nosotros', path: '/about-us'},
-    {label: 'Contacto', path: '/contact'},
-  ]
+  const handleCloseUserMenu = () => {
+    setAnchorElUser(null);
+  };
 
   return (
-    <Toolbar sx={{width: {xs: '100vw', md: '100%'}}}>
-      <div className='logo'>
-        <IconButton edge='start' sx={{border:'none'}}>
-          <img src={Logo} alt='' srcset='' />
-        </IconButton>
-      </div>
+    <AppBar position="static" sx={{ background: 'linear-gradient(to right, #0A4273, #000)' }}>
+      <Container maxWidth="xl" >
+        <Toolbar disableGutters sx={{ background: 'linear-gradient(to right, #0A4273, #000)' }}>
 
-      {isMobile ? (
-        <FormControl sx={{width: 100}}>
-          <InputLabel>Opciones </InputLabel>
-          <Select>
-            <MenuItem>
-              {/* Main menu */}
-              <Typography variant='h5' sx={{display: 'flex',
-               color: 'black',
-                flexDirection: 'column',
-                fontSize:'30px',
-                 alignItems: 'center'}} 
-                 className={classes.title}>
-                <Link to='/'>Home &nbsp;</Link>
-                {blog
-                  ? menuItems.map((item, index) => (
-                      <Button  key={index} color='inherit'>
-                        {item.label}
-                        
-                      </Button>
-                    ))
-                  : null}
-                <Box sx={{display: 'flex', flexDirection: 'column'}} className='grupoBotones'>
-                  {/* Login and Register buttons */}
-                  <Button color='inherit' sx={{
-                    background:'white'
-                  }}>
-                    Iniciar sesión</Button>
-                  <Button color='inherit'>Registrarse</Button>
 
-                  {/* Language menu */}
+          <Typography
+            variant="h6"
+            noWrap
+            component="a"
+            href="#app-bar-with-responsive-menu"
+            sx={{
+              mr: 2,
+              display: { xs: 'none', md: 'flex' },
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'white',
+              textDecoration: 'none',
 
-                  <Link to='/blog'>Blog</Link>
-                  <Select labelId='language-select-label' defaultValue='es' onChange={handleLanguageClick} sx={{border:'none'}}>
-                    <MenuItem className='flagsNames widthMenu' value='en' sx={{border:'none'}}>
-                      <img src={ENFlag} alt='English' />
-                    </MenuItem>
-                    <MenuItem className='flagsNames widthMenu' value='es'>
-                      <img src={ESFlag} alt='Español' />
-                    </MenuItem>
-                  </Select>
-                </Box>
-              </Typography>
-            </MenuItem>
-          </Select>
-        </FormControl>
-      ) : (
-        <>
-          <div className='mainMenu'>
-            {/* Main menu */}
-            <Typography variant='h5' className={classes.title}>
-              <Link to='/'>Home &nbsp;| &nbsp;</Link>
-              {blog
-                ? menuItems.map((item, index) => (
-                    <Button key={index} color='inherit' >
-                      {item.label}
-                    </Button>
-                  ))
-                : null}
-              <Link to='/blog'>Blog</Link>
-            </Typography>
-          </div>
+            }}
+          >
+            <img src={Logo} alt="" srcset="" style={{ background: 'white' }} />
+          </Typography>
 
-          <div className='grupoBotones'>
-            {/* Login and Register buttons */}
-            <Button color='inherit' sx={{background:'#05325a', color:'white'}}>Iniciar sesión</Button>
-            &nbsp;  &nbsp;
-            <Button color='inherit' sx={{background:'white', color:'black'}}>Registrarse</Button>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, justifyContent: 'center' }}>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+            >
 
-            {/* Language menu */}
+              <MenuIcon />
+            </IconButton>
+            <Menu
+              id="menu-appbar"
+              anchorEl={anchorElNav}
+              anchorOrigin={{
+                vertical: 'bottom',
+                horizontal: 'left',
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'left',
+              }}
+              open={Boolean(anchorElNav)}
+              onClose={handleCloseNavMenu}
+              sx={{
+                display: { xs: 'block', md: 'none' },
+              }}
+            >
+              {pages.map((page) => (
+                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">{page}</Typography>
+                </MenuItem>
+              ))}
+            </Menu>
+          </Box>
 
-            <Select labelId='language-select-label' defaultValue='es' onChange={handleLanguageClick}>
-              <MenuItem className='flagsNames widthMenu' value='en'>
-                <img src={ENFlag} alt='English' />
-              </MenuItem>
-              <MenuItem className='flagsNames widthMenu' value='es'>
-                <img src={ESFlag} alt='Español' />
-              </MenuItem>
-            </Select>
-          </div>
-        </>
-      )}
-    </Toolbar>
-  )
+          <Typography
+            variant="h5"
+            noWrap
+            component="a"
+            href="#app-bar-with-responsive-menu"
+            sx={{
+              mr: 2,
+              display: { xs: 'flex', md: 'flex' },
+              flexGrow: 1,
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+
+
+          </Typography>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+            {pages.map((page) => (
+              <Button
+                key={page}
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'white', display: 'block' }}
+              >
+                {page}
+              </Button>
+            ))}
+          </Box>
+
+          <Box sx={{ flexGrow: 0, display: 'flex', gap: '1rem' }}>
+            <Button variant="outlined" sx={{ color: 'white' }}>Inicia Sesión</Button>
+            <Button variant="contained">Registrate</Button>
+            <Tooltip title="Open settings">
+
+              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+                <LanguageIcon sx={{ color: 'white', fontSize: '30px' }} />
+              </IconButton>
+            </Tooltip>
+            <Menu
+              sx={{ mt: '45px' }}
+              id="menu-appbar"
+              anchorEl={anchorElUser}
+              anchorOrigin={{
+                vertical: 'top',
+                horizontal: 'right',
+              }}
+              keepMounted
+              transformOrigin={{
+                vertical: 'top',
+                horizontal: 'right',
+              }}
+              open={Boolean(anchorElUser)}
+              onClose={handleCloseUserMenu}
+            >
+              {settings.map((setting) => (
+                <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                  <Typography textAlign="column">{setting}</Typography>
+                  <img src={Español} alt="" />
+            
+                </MenuItem>
+                
+              ))}
+            </Menu>
+          </Box>
+        </Toolbar>
+      </Container>
+    </AppBar>
+  );
 }
-
-export default Navbar
+export default ResponsiveAppBar;

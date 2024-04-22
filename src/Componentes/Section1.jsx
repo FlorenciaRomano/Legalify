@@ -25,7 +25,9 @@ function Section1() {
   }, [indice])
 
   return (
-    <Box sx={{display:{xs:'inline', md:'flex'}, justifyContent:{xs:'start', md:'center'}}} className='sectionPrin'>
+    <Box sx={{display:{xs:'inline', md:'flex'}, 
+    justifyContent:{xs:'start', md:'center'}}} 
+    className='sectionPrin'>
       <Box sx={{width:{md:'400px'}}} className='section1'>
         <h1>¿Necesitas un abogado?</h1>
 
