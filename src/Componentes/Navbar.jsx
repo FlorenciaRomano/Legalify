@@ -52,15 +52,17 @@ function ResponsiveAppBar() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              fontFamily: 'inherit',
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'white',
               textDecoration: 'none',
+              fontSize:'30px'
 
             }}
           >
-            <img src={Logo} alt="" srcset="" style={{ background: 'white' }} />
+            Legalify
+            {/* <img src={Logo} alt="" srcset="" style={{ background: 'white' }} /> */}
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, justifyContent: 'center' }}>
@@ -71,6 +73,7 @@ function ResponsiveAppBar() {
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
               color="inherit"
+              
             >
 
               <MenuIcon />
@@ -125,7 +128,7 @@ function ResponsiveAppBar() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'white', display: 'block',fontSize:'11px' }}
               >
                 {page}
               </Button>
